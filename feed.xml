@@ -3,7 +3,7 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2025-03-26T17:32:54-07:00</updated>
+    <updated>2025-03-26T17:44:50-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://kacboy.com/blog/uncharted-2-multiplayer-back-from-the-dead.html"/>
         <id>https://kacboy.com/blog/uncharted-2-multiplayer-back-from-the-dead.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/25/2025-03-21-Uncharted-2-Revived.jpg" medium="image" />
+            <category term="features"/>
 
         <updated>2025-03-21T10:00:00-07:00</updated>
             <summary>
@@ -96,19 +97,19 @@
         </author>
         <link href="https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps5-updated-for-2025.html"/>
         <id>https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps5-updated-for-2025.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/28/2025-02-05-PS5-Browser-2025-3.jpg" medium="image" />
+        <media:content url="https://kacboy.com/blog/media/posts/28/maxresdefault.jpg" medium="image" />
             <category term="guides"/>
 
         <updated>2025-02-09T10:00:00-08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/28/2025-02-05-PS5-Browser-2025-3.jpg" alt="" />
+                        <img src="https://kacboy.com/blog/media/posts/28/maxresdefault.jpg" alt="" />
                     Sony has been making it increasingly difficult to access a web browser&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/28/2025-02-05-PS5-Browser-2025-3.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://kacboy.com/blog/media/posts/28/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
                 <p>Sony has been making it increasingly difficult to access a web browser on the PlayStation 5, blocking many of the previously known methods. If you're looking for ways to browse the web on your PS5 in 2025, this guide will walk you through the latest working techniques.</p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/VACBm9dFmyc" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2>Method 1: Using PSN Messaging to Open URLs</h2>
@@ -219,19 +220,19 @@
         </author>
         <link href="https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps-portal-updated-for-2025.html"/>
         <id>https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps-portal-updated-for-2025.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/29/2025-02-05-Portal-Browser-2025.jpg" medium="image" />
+        <media:content url="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" medium="image" />
             <category term="guides"/>
 
         <updated>2025-02-05T17:27:00-08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/29/2025-02-05-Portal-Browser-2025.jpg" alt="" />
+                        <img src="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" alt="" />
                     The PlayStation Portal is designed primarily for Remote Play, and Sony has&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/29/2025-02-05-Portal-Browser-2025.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
                 <p>The PlayStation Portal is designed primarily for Remote Play, and Sony has severely limited web browsing capabilities. However, there are still a few ways to access the internet through your PS Portal. This guide will walk you through the latest working methods in 2025.</p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/ypUaFIgioQw" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2>Method 1: Using the Hidden PS Portal Browser</h2>
@@ -356,6 +357,7 @@
         <link href="https://kacboy.com/blog/how-to-watch-3d-movies-on-psvr2-using-free-software.html"/>
         <id>https://kacboy.com/blog/how-to-watch-3d-movies-on-psvr2-using-free-software.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/26/2024-10-06-PSVR2-Movies.jpg" medium="image" />
+            <category term="guides"/>
 
         <updated>2024-10-06T10:00:00-07:00</updated>
             <summary>
@@ -477,6 +479,7 @@
         <link href="https://kacboy.com/blog/playstation-portal-or-206-hdr-issues.html"/>
         <id>https://kacboy.com/blog/playstation-portal-or-206-hdr-issues.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/23/2024-04-03-PS-Portal-Rant.jpg" medium="image" />
+            <category term="reviews"/>
 
         <updated>2024-04-03T14:00:00-07:00</updated>
             <summary>
@@ -569,6 +572,7 @@
         <link href="https://kacboy.com/blog/playstation-vr2-2024-impressions-powerful-and-pricey-gaming.html"/>
         <id>https://kacboy.com/blog/playstation-vr2-2024-impressions-powerful-and-pricey-gaming.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/21/2024-03-27-PS-VR2-Impressions.jpg" medium="image" />
+            <category term="reviews"/>
 
         <updated>2024-03-27T10:00:00-07:00</updated>
             <summary>
@@ -581,13 +585,10 @@
             <![CDATA[
                     <p><img src="https://kacboy.com/blog/media/posts/21/2024-03-27-PS-VR2-Impressions.jpg" class="type:primaryImage" alt="" /></p>
                 <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=W8RYHBHcP5I\u0026amp;t=25s","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=W8RYHBHcP5I&amp;t=25s</div>
-<figcaption class="wp-element-caption">I recently bought a PSVR2 with the news that PC support will be coming soon. Here's my initial impressions of the system and a few of the games I tried these last few weeks!</figcaption>
-</figure>
 <p><!-- /wp:embed --></p>
 <p><!-- wp:paragraph --></p>
 <p>Just a few weeks ago I tweeted that I got a PSVR2, and I’ve been trying out as many games as I could to give you my impressions of this system in 2024. To give some background I’ve had quite a bit of experience in VR, this is my 3rd headset that I’ve owned, I previously had PSVR1 and meta quest 2 which I only ever used as a PCVR Headset. I played all of Boneworks and most of half life Alyx, and on PSVR1 and I mostly played a lot of Firewall Zero Hour but as we all know that headset was not a super enjoyable experience compared to the competition that grew around it. I’ve looked forward to trying this headset though ever since I edited the first Linus Tech Tips preview on the system around this time last year. With that said let's jump into my impressions</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/W8RYHBHcP5I?t=25s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading">Setup</h2>
@@ -675,6 +676,7 @@
         <link href="https://kacboy.com/blog/ps-classics-catalogue-or-buying-psp-games-in-2024.html"/>
         <id>https://kacboy.com/blog/ps-classics-catalogue-or-buying-psp-games-in-2024.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/22/2024-03-09-PSP-Cross-Buy.jpg" medium="image" />
+            <category term="features"/>
 
         <updated>2024-03-09T10:00:00-08:00</updated>
             <summary>
@@ -724,6 +726,7 @@
         <link href="https://kacboy.com/blog/what-is-the-best-android-playstation-remote-play-app.html"/>
         <id>https://kacboy.com/blog/what-is-the-best-android-playstation-remote-play-app.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/20/2024-03-02-Remote-Play-App-Comparison.jpg" medium="image" />
+            <category term="features"/>
 
         <updated>2024-03-02T10:00:00-08:00</updated>
             <summary>
@@ -736,16 +739,13 @@
             <![CDATA[
                     <p><img src="https://kacboy.com/blog/media/posts/20/2024-03-02-Remote-Play-App-Comparison.jpg" class="type:primaryImage" alt="" /></p>
                 <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=BZ1aKOCaCFU","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=BZ1aKOCaCFU</div>
-<figcaption class="wp-element-caption">I tried every Android PlayStation remote play app so you don't have to.</figcaption>
-</figure>
 <p><!-- /wp:embed --></p>
 <p><!-- wp:paragraph --></p>
-<p>In this video I wanted to make an ultimate comparison guide for each of the current major apps in PlayStation Remote Play on Android. I'm going to be testing everything on the Galaxy S10 I think as a slightly<br>older Flagship it'll still perform as a pretty good baseline since It has a 1440p screen that also supports HDR. As I go through each app I'm going to be looking at the availability the pricing of any premium features the setup process for each of them as well as take<br>a look at the options available and then lastly I'll do a very quick and dirty latency test so you can take a look. I'll also give you the potential use case for each one and what I think the advantages of each are. I'll also really quickly try out the PlayStation Portal at the end because it's technically running Android so I'll just include that as well.</p>
+<p>In this video I wanted to make an ultimate comparison guide for each of the current major apps in PlayStation Remote Play on Android. I'm going to be testing everything on the Galaxy S10 I think as a slightly older Flagship it'll still perform as a pretty good baseline since It has a 1440p screen that also supports HDR. As I go through each app I'm going to be looking at the availability the pricing of any premium features the setup process for each of them as well as take a look at the options available and then lastly I'll do a very quick and dirty latency test so you can take a look. I'll also give you the potential use case for each one and what I think the advantages of each are. I'll also really quickly try out the PlayStation Portal at the end because it's technically running Android so I'll just include that as well.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Before we even touch any of these apps though you'll need to make sure that your PS4 or PS5 is actually enabled for remote play in the settings, once that's ready let's get started with the official Remote Play app first.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/BZ1aKOCaCFU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading"><a href="https://play.google.com/store/apps/details?id=psplay.grill.com&amp;hl=en_CA&amp;gl=US">Remote Play</a></h2>
@@ -858,12 +858,13 @@
         <link href="https://kacboy.com/blog/remembering-the-legacy-of-defunct-playstation-studios.html"/>
         <id>https://kacboy.com/blog/remembering-the-legacy-of-defunct-playstation-studios.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/14/2024-02-10-Defunct-PS-Studios.jpg" medium="image" />
+            <category term="features"/>
 
         <updated>2024-02-10T10:00:00-08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kacboy.com/blog/media/posts/14/2024-02-10-Defunct-PS-Studios.jpg" alt="" />
-                    I wanted to pay my respects and talk about the downfall of&hellip;
+                    Starting with Zipper Interactive, which was founded in 1995 in Washington state,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -871,14 +872,13 @@
                     <p><img src="https://kacboy.com/blog/media/posts/14/2024-02-10-Defunct-PS-Studios.jpg" class="type:primaryImage" alt="" /></p>
                 <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=MX-UeJa8fQQ","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=MX-UeJa8fQQ</div>
-<figcaption class="wp-element-caption">Let's take a short but nostalgic journey through the history of PlayStation gaming, honouring the legacy of studios now closed but not forgotten.</figcaption>
-</figure>
+<figcaption class="wp-element-caption"></figcaption>
+I wanted to pay my respects and talk about the downfall of some of the Sony first-party studios that are no longer with us today. And with the recent amount of layoffs and studio closures, it seems like stories like these have only become more commonplace and I already feel like I’ll need to make another video like this in the near future.</figure>
 <p><!-- /wp:embed --></p>
 <p><!-- wp:paragraph --></p>
-<p>I wanted to pay my respects and talk about the downfall of some of the Sony first-party studios that are no longer with us today. And with the recent amount of layoffs and studio closures, it seems like stories like these have only become more commonplace and I already feel like I’ll need to make another video like this in the near future.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:heading --></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/MX-UeJa8fQQ" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2 class="wp-block-heading">Zipper Interactive</h2>
 <p><!-- /wp:heading --></p>
 <p><!-- wp:paragraph --></p>
@@ -922,6 +922,7 @@
         <link href="https://kacboy.com/blog/this-is-why-we-need-ps3-backwards-compatibility.html"/>
         <id>https://kacboy.com/blog/this-is-why-we-need-ps3-backwards-compatibility.html</id>
         <media:content url="https://kacboy.com/blog/media/posts/16/2023-08-26-We-Need-PS3-Backwards-Compatibility-Bad.jpg" medium="image" />
+            <category term="features"/>
 
         <updated>2023-08-26T10:00:00-07:00</updated>
             <summary>
@@ -934,16 +935,12 @@
             <![CDATA[
                     <p><img src="https://kacboy.com/blog/media/posts/16/2023-08-26-We-Need-PS3-Backwards-Compatibility-Bad.jpg" class="type:primaryImage" alt="" /></p>
                 <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=2Buutoj_Tck\u0026amp;t=42s","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=2Buutoj_Tck&amp;t=42s</div>
-<figcaption class="wp-element-caption">This Red Dead downgrade highlights how badly we need PS3 backwards compatibility and continues the trend of full price "remasters" since the PS4 generation.</figcaption>
-</figure>
-<p><!-- /wp:embed --></p>
-<p><!-- wp:paragraph --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"></figure>
 <p>With the news about Red Dead Redemption getting ported to PS4, it got me thinking about the issues of Sony’s approach to bringing classic PS games to their current hardware.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>If you're not familiar, Red Dead Redemption was previously a game trapped on PS3, which is fully incompatible with PS4. And now they are bringing the game to PS4, not PS5, for nearly full price with minor visual upgrades and no multiplayer on August 17. This is a trend that’s gone on for most of the PS4 generation and it’s really a middle finger to fans who were into the PS ecosystem for the PS3 generation.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/2Buutoj_Tck?t=42s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>This latest port of Red Dead stuck out to me because I own Red Dead Redemption 1 on PS3 digitally and it’s remained on my system all these years since it was the only PlayStation console where it was playable. But this “new” version on PS4 is arguably downgraded from the original and I would have to buy it again to play it! As far as I can tell the only upgrade is that it’s potentially a higher resolution but with the same 30fps lock as on PS3, so the improvements in this case would be hardly noticeable in a typical TV gaming setup.</p>
