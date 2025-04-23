@@ -44,4 +44,8 @@
         }
     });
         
-        document.querySelector('.logo').setAttribute('href', 'https://kacboy.com');</script></body></html>
+        const logoLink = document.querySelector('.logo');
+    if (logoLink) {
+      logoLink.setAttribute('href', 'https://kacboy.com');
+      logoLink.setAttribute('target', '_top');
+    }</script></body></html>
