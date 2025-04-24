@@ -3,7 +3,7 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2025-04-23T16:09:44-07:00</updated>
+    <updated>2025-04-24T10:27:17-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
@@ -87,6 +87,106 @@
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/Q1fVvjaXH90" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <hr>
 <p>Uncharted 2 Revived <a href="https://discord.gg/9pJrhnhucz">https://discord.gg/9pJrhnhucz</a><br>Reddit Announcement <a href="https://www.reddit.com/r/unchartedmultiplayer/comments/1jfbpm5/uncharted_2_revived_no_gatekeeping_just_pure/">https://www.reddit.com/r/unchartedmultiplayer/comments/1jfbpm5/uncharted_2_revived_no_gatekeeping_just_pure/</a><br>Uncharted 3 Reloaded <a href="https://discord.com/invite/jtvQ7sQcZS">https://discord.com/invite/jtvQ7sQcZS</a><br>Retro Fighters Defender Controller <a href="https://amzn.to/3yNFA7w">https://amzn.to/3yNFA7w</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Convert 4K Blu-ray to PSP: Step-by-Step Guide</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/convert-4k-blu-ray-to-psp-step-by-step-guide.html"/>
+        <id>https://kacboy.com/blog/convert-4k-blu-ray-to-psp-step-by-step-guide.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/36/2025-03-03-UHD-PSP.jpg" medium="image" />
+            <category term="guides"/>
+
+        <updated>2025-03-03T10:00:00-08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/36/2025-03-03-UHD-PSP.jpg" alt="" />
+                    Have you ever wanted to watch your favorite 4K Ultra HD Blu-rays&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/36/2025-03-03-UHD-PSP.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Have you ever wanted to watch your favorite 4K Ultra HD Blu-rays on your PlayStation Portable (PSP)? It might seem impossible, but converting 4K Blu-ray to PSP format is totally doable with the right tools. This guide will show you how to rip, compress, and transfer high-quality video to your PSP for watching movies anywhere.</p>
+<div class="se-component se-video-container __se__float-none" style="width: 100%;">
+<figure>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/2nHJiC4dZgw?t=47s" allowfullscreen="allowfullscreen"></iframe></figure>
+</figure>
+<h2>What You'll Need to Convert 4K Blu-rays to PSP</h2>
+<p>Before we start converting, here's what you'll need:</p>
+<ul>
+<li>A 4K Ultra HD Blu-ray disc</li>
+<li>A Blu-ray drive that can read 4K discs</li>
+<li>MakeMKV for ripping the disc</li>
+<li>Handbrake for compressing the video</li>
+<li>A USB cable to connect your PSP</li>
+</ul>
+<h2>How to Rip 4K Blu-rays with MakeMKV</h2>
+<p>First, we'll use MakeMKV to get the video off the disc:</p>
+<ol>
+<li>Install and open MakeMKV on your computer.</li>
+<li>Put the 4K Blu-ray in your drive.</li>
+<li>MakeMKV will scan the disc. Pick the biggest file - that's usually the main movie.</li>
+<li>Choose where to save the file and start ripping.</li>
+</ol>
+<p>This part can take a while, depending on your computer and how big the movie is.</p>
+<h2>Compressing Video for PSP with Handbrake</h2>
+<p>Now that you have the MKV file, let's compress it for the PSP using Handbrake:</p>
+<ol>
+<li>Download and install Handbrake.</li>
+<li>Get the PSP preset (check the video description for a link).</li>
+<li>Open your MKV file in Handbrake.</li>
+<li>Use the PSP preset - it sets most things automatically.</li>
+<li>For 4K HDR videos, go to Filters and change the color space to BT.709 so it works on PSP.</li>
+</ol>
+<h3>Tweaking Video Settings for PSP</h3>
+<p>The preset covers most things, but you might want to change a few settings:</p>
+<ul>
+<li>PSP video size: Standard PSP screens are 480x272. You can go up to 720x576 for better quality.</li>
+<li>Aspect ratio: For widescreen movies, try 720x576 and leave other settings on auto.</li>
+<li>Cropping: You can cut out black bars to save space, or keep them to zoom in later on your PSP.</li>
+</ul>
+<p>When you're happy with the settings, start compressing. It'll take about 30 minutes, give or take, depending on your computer and the length of the movie.</p>
+<h2>Getting Your Movie onto the PSP</h2>
+<p>Once your video is compressed, here's how to put it on your PSP:</p>
+<ol>
+<li>Plug your PSP into your computer with a USB cable.</li>
+<li>Set your PSP to USB mode so your computer sees it as a drive.</li>
+<li>Drag your compressed video file to the VIDEO folder on your PSP.</li>
+<li>Safely unplug your PSP.</li>
+</ol>
+<p>To watch your movie:</p>
+<ol>
+<li>Go to the Video section on your PSP's main menu.</li>
+<li>Find your video file and select it to play.</li>
+</ol>
+<h2>Making Videos Look Great on PSP</h2>
+<p>For the best picture on your PSP:</p>
+<ul>
+<li>Try different resolutions to find what looks best without taking up too much space.</li>
+<li>Use the PSP's zoom feature to adjust widescreen videos if needed.</li>
+<li>Higher resolution files (like 720x576) can look better even on the small PSP screen, especially for videos without black bars.</li>
+</ul>
+<h2>PSP Storage Tips</h2>
+<p>Keep in mind that better quality videos take up more space. You might want to get a bigger memory stick if you plan to keep lots of movies on your PSP.</p>
+<p>Converting 4K Blu-rays to PSP format lets you take your HD movies anywhere. It might seem tricky at first, but once you get the hang of it, you can fine-tune the process to get exactly what you want.</p>
+<h2>FAQ (Frequently Asked Questions)</h2>
+<h4>Can I use this method for regular Blu-rays or DVDs?</h4>
+<p>Yes, this method works for any video source, including standard Blu-rays and DVDs. The process remains the same, but you may not need to adjust the color space settings for non-HDR content.</p>
+<h4>Will converting 4K content to PSP resolution result in a significant quality loss?</h4>
+<p>While there will be some quality loss due to the lower resolution, proper compression settings can still result in a very watchable video on the PSP's screen. The higher quality source material often leads to better results even at lower resolutions.</p>
+<h4>How much storage space do converted movies typically take up on a PSP?</h4>
+<p>This varies depending on the length of the movie and your compression settings. Generally, a 2-hour movie converted to PSP format might range from 700MB to 1.5GB.</p>
+<h4>Is it legal to rip and convert Blu-rays I own?</h4>
+<p>The legality of <a href="https://www.avsforum.com/threads/ripping-uhd-4k-discs-with-makemkv-instructions-how-to.2942740/page-226" target="_blank" rel="noopener noreferrer">ripping Blu-rays</a> varies by country. In many places, it's legal to make a backup copy for personal use, but it's always best to check your local laws.</p>
+<h4>Can I use other video conversion software instead of Handbrake?</h4>
+<p>Yes, there are other video conversion tools available. However, Handbrake is free, regularly updated, and has a good reputation for quality and flexibility, making it an excellent choice for this task.</p>
+<hr>
+<p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">Updated Preset </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://kacboy.com/files/Handbrake.PSP.720x576.json">https://kacboy.com/files/Handbrake.PSP.720x576.json</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Original Preset </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://archive.org/details/psp_20240812">https://archive.org/details/psp_20240812</a></span></span></p>
+</div>
             ]]>
         </content>
     </entry>
@@ -620,6 +720,134 @@
         </content>
     </entry>
     <entry>
+        <title>Playing PSVR2 PS3 3D Games on PC: Setup Guide</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/playing-psvr2-ps3-3d-games-on-pc-setup-guide.html"/>
+        <id>https://kacboy.com/blog/playing-psvr2-ps3-3d-games-on-pc-setup-guide.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/37/2024-10-05-PSVR2-RPCS3.jpg" medium="image" />
+            <category term="guides"/>
+
+        <updated>2024-10-05T10:00:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/37/2024-10-05-PSVR2-RPCS3.jpg" alt="" />
+                    Ever dreamed of reliving those classic PS3 3D games but with a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/37/2024-10-05-PSVR2-RPCS3.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Ever dreamed of reliving those classic PS3 3D games but with a modern twist? Well, buckle up, because playing PSVR2 PS3 3D games on PC is now a reality. Thanks to some clever tech wizardry, you can dust off those old favorites and experience them in virtual reality. If you've got a beefy PC and missed the 3D gaming craze, this guide will walk you through bringing those games back to life with your PSVR2 headset.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/Z1q8DRJWSXY?t=145s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2>Getting RPCS3 Ready for 3D PS3 Action</h2>
+<p>First things first, we need to set up RPCS3, the PS3 emulator that'll make the magic happen. Here's a quick rundown:</p>
+<ul>
+<li>Grab RPCS3 from their official site and install it.</li>
+<li>Tweak RPCS3 settings for best performance (check their website for game-specific tips).</li>
+<li>Use PS3 Disc Dumper to create digital copies of your games (keep it legal, folks).</li>
+<li>Set up custom configs for each 3D game you want to play.</li>
+<li>Turn on 3D side-by-side options in those custom configs.</li>
+</ul>
+<p>Quick heads up: For 3D to work properly in RPCS3, stick with 720p resolution. It's not perfect yet, so cranking it higher might cause some wonky issues.</p>
+<h2>Big Screen Beta: Your Virtual Cinema Setup</h2>
+<p>Next up is Big Screen Beta, a free app on Steam that turns your VR space into a personal theater. Here's how to get it going:</p>
+<ol>
+<li>Download Big Screen Beta from Steam.</li>
+<li>Fire it up and hop into VR mode.</li>
+<li>Pick your favorite virtual hangout (home theater, big cinema, you name it).</li>
+<li>Set it up to show your PC desktop on the virtual screen.</li>
+</ol>
+<h2>Hooking Up Your PSVR2 to PC</h2>
+<p>To get your PSVR2 talking to your PC, you'll need a PSVR2 to PC adapter. This little gizmo lets you connect your headset to your computer, opening up a whole world of PC VR content. Make sure you've got it set up right before moving on.</p>
+<h2>Let's Play Some PS3 3D Games: Step-by-Step</h2>
+<p>Alright, time for the main event. Here's how to get those PS3 3D games running on your PSVR2:</p>
+<ol>
+<li>Start up RPCS3 and load your 3D game of choice.</li>
+<li>Open Big Screen Beta and pick your virtual spot.</li>
+<li>In Big Screen Beta settings, turn on side-by-side 3D options.</li>
+<li>Enable 3D options in-game (this might be different for each game).</li>
+<li>Fiddle with the aspect ratio in Big Screen Beta if things look stretched.</li>
+<li>Tweak performance settings as needed for smooth gameplay.</li>
+</ol>
+<h2>The Nitty-Gritty: Performance and Limitations</h2>
+<p>When you're emulating PS3 3D games on PC, you might hit a few snags:</p>
+<ul>
+<li>You're stuck with 720p for 3D to work properly.</li>
+<li>Frame rates can be all over the place, depending on your PC's muscle and the game.</li>
+<li>Some games might act up or have weird graphical glitches.</li>
+</ul>
+<p>It's worth playing around with different games and settings to find that sweet spot between looks and performance.</p>
+<h2>Squeezing the Most Out of RPCS3 for 3D Games</h2>
+<p>Want to get the best performance? Try these tips:</p>
+<ul>
+<li>Check out the RPCS3 compatibility database for game-specific tweaks.</li>
+<li>Play with CPU and GPU settings in RPCS3 to match what your PC can handle.</li>
+<li>Use custom configs for each game to fine-tune things.</li>
+<li>Experiment with different rendering options to balance visuals and frame rate.</li>
+</ul>
+<h2>The Future of Retro VR Gaming</h2>
+<p>As VR tech and emulation keep getting better, we can expect even cooler ways to play PS3 3D games in virtual reality. This setup is just the beginning, bridging the gap between old-school gaming and modern VR tech. Who knows what kind of retro VR experiences we'll be able to cook up next?</p>
+<h2>FAQ (Frequently Asked Questions)</h2>
+<h4>What PS3 3D games work best with this setup?</h4>
+<p>Games like MotorStorm Apocalypse and Uncharted 3 work well, but performance may vary. It's best to experiment with different titles to find those that offer the best balance of 3D effects and smooth gameplay.</p>
+<h4>Do I need a powerful PC to run PS3 3D games in VR?</h4>
+<p>Yes, a powerful PC is recommended for the best experience. Emulating PS3 games and running VR simultaneously can be demanding on your hardware.</p>
+<h4>Can I use other VR headsets besides PSVR2?</h4>
+<p>While this guide focuses on PSVR2, you can use other PC-compatible VR headsets with a similar setup. The process may vary slightly depending on the headset you're using.</p>
+<h4>Is it legal to emulate PS3 games on PC?</h4>
+<p>Emulation itself is legal, but you should only use digital copies of games you own physically. Always ensure you're following copyright laws in your region.</p>
+<h4>How do I troubleshoot performance issues when playing PS3 3D games in VR?</h4>
+<p>Start by checking the RPCS3 compatibility database for optimal settings, adjust your PC's performance options, and experiment with different in-game and emulator settings to find the best balance for your setup.</p>
+<hr>
+<p>RPCS3 <a href="https://rpcs3.net/">https://rpcs3.net/</a><br>Bigscreen <a href="https://store.steampowered.com/app/457550/Bigscreen_Beta/">https://store.steampowered.com/app/457550/Bigscreen_Beta/</a><br>Disc Dumper <a href="https://github.com/13xforever/ps3-disc-dumper">https://github.com/13xforever/ps3-disc-dumper</a><br>PS VR2 <a href="https://amzn.to/47TKn4F">https://amzn.to/47TKn4F</a><br>PS VR2 PC Adapter <a href="https://amzn.to/3BxVq7B">https://amzn.to/3BxVq7B</a><br>Uncharted <a href="https://amzn.to/3TWU6RU">https://amzn.to/3TWU6RU</a><br>Controller <a href="https://amzn.to/3yNFA7w">https://amzn.to/3yNFA7w</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Indika PS5 Review</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/indika-ps5-review.html"/>
+        <id>https://kacboy.com/blog/indika-ps5-review.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/38/2024-05-23-Indika.png" medium="image" />
+            <category term="reviews"/>
+
+        <updated>2024-05-23T10:00:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/38/2024-05-23-Indika.png" alt="" />
+                    Indika is a narrative-driven singleplayer third-person game with puzzles, platforming elements, and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/38/2024-05-23-Indika.png" class="type:primaryImage" alt="" /></p>
+                <p><span style="font-weight: 400;">Indika is a narrative-driven singleplayer third-person game with puzzles, platforming elements, and a very slick cinematic presentation. This game is right up my alley because I am an avid movie watcher, and the developers say this game is inspired by arthouse cinema from the likes of Yorgos Lanthimos, Ari Aster, and Darren Aronofsky. In this game you play as a Nun named Indika in 19th century Russia, who struggles with her faith and her peers, and regularly battles with a very manipulative inner demon. This game might look like a horror game on the surface as well, but it never really delves into horror specifically, but it definitely aims to make you uneasy, and a few moments really gave me chills or made me go “holy krap”. With all that said, it is very much a cinematic or even walking-simulator type adventure game that's very beautifully presented but not a very deep experience gameplay wise by any means. </span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/qJYPtTBI2mQ" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2><span style="font-weight: 400;">Gameplay</span></h2>
+<p><span style="font-weight: 400;">The closest types of games to this off the top of my head are other indie-adventure games like Hellblade or Plague Tale, but this is even more simple and passive in its gameplay elements. There are a couple, very simple platforming puzzles and challenges throughout the game as well as some linear chase sequences, but none are particularly difficult. Generally the puzzles come down to basic platforming, using various levers and mechanical systems to move platforms and obstacles, and occasional supernatural forces. On the upside, each set piece and puzzle is quite unique from each other despite their simplicity so you won’t feel like you are doing the same challenge over and over. They often present a new mechanic and environment for each challenge with very little recycling throughout the 2-3 hour experience. </span></p>
+<p><span style="font-weight: 400;">One of the other notable gameplay elements in this adventure are the points you see in the top left. When you complete tasks, find collectibles, or even pray, you collect these points, which is a very gamer-centric and cynical way of viewing Indika’s faith. Which in many ways is the point of the game. While I can see a lot of players turning off the GUI outright to hide these points, I thought they were pretty cheeky and a funny mechanic because of the thematic implications. </span></p>
+<p><span style="font-weight: 400;">Between certain chapters there are 2D platforming sections that reveal flashbacks about Indika’s life and origins, which are a bit jarring compared to the presentation of the rest of the game but they tell the simple story well enough. And the pixel art was also really strong in it’s own regard. And they are not super difficult either even though I died so much. I’m just bad at 2D games…</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">I do wish there was a stronger connection or through line between the 3D and 2D levels than just the point indicators though. he game only hard hard cuts between the two as it is now and maybe they could’ve done more to ease the transition or even have pixelated elements seep into the 3D world on occasion or something, I’m not sure what but it feels too much like two different games other than the connective storyline.</span></p>
+<h2><span style="font-weight: 400;">Presentation/graphics</span></h2>
+<p><span style="font-weight: 400;">As I’ve said a couple times already, the graphics in this game are spectacular, it runs off of Unreal Engine 4 and really showcases the power and capabilities of this engine, even in the hands of smaller indie studios. In many cutscenes the faces and details are as good as many AAA games, and the atmosphere throughout the game is really really hauntingly isolated and spooky. Even the level design and blocking felt really strong, I was never lost or feeling artificially funneled through the world even though it’s a strictly linear game. And there was enough sense of exploration to find collectibles and other details in this surreal Russian winter.</span></p>
+<p><span style="font-weight: 400;">I did see occasional pop-in, in particular when the game cuts between camera angles in cutscenes as well as some slowdown in some specific more open areas, but otherwise the game ran at a really nice 60fps 4K.</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Motion capture and animation work was great and the game has some realy wonderful cinematography as you may have seen from some of the earlier trailers. They are not shy to have closeups with these characters and the graphics and details really hold up well.</span></p>
+<p><span style="font-weight: 400;">The game does have distinct chapters and levels, and they don’t feel super repetitive again, each one is distinct but increasingly surreal as you progress through Indika’s story. I love the exaggerated industrial levels in particular. There’s a massive canning factory that is almost portal 2-esque in its ridiculous scale and atmosphere, and some levels seem to climb up forever like the tower of babel. The environmental design reminds me of a industrial russian version of the Oldest house from Control in a lot of ways.</span></p>
+<h2><span style="font-weight: 400;">Story</span></h2>
+<p><span style="font-weight: 400;">The plot starts off as Indika is a generally disliked Nun among her cloister, and she is tasked to deliver a letter to another monastery. The story quickly gets swept into a different direction as she meets a local prison escapee and for all intents and purposes is forced to help him on his journey. Through dialogue and flashbacks their experience with faith, loyalty, and trust over the rest of the game.</span></p>
+<h2><span style="font-weight: 400;">Audio</span></h2>
+<p><span style="font-weight: 400;">The audio design in this game is really great, but it’s also the part where I had the most issues. The environments are very isolating and cold, and the detailed foley and voicework is really great. However, it might get patched at some point but I had a lot of volume issues throughout the game. Take a look at my game capture timeline of the entire game and you can see how quiet and loud some chapters are compared to one another. And even in certain conversations, Indika and other characters' volume levels would be so different for no apparent reason. I did play this on a soundbar and I didn’t see much in the options for audio output settings so maybe that didn’t help and it would all be great in headphones. But I still think there were some problems in the audio department overall, especially just looking at those captured levels.</span></p>
+<h2><span style="font-weight: 400;">Concluding Thoughts</span></h2>
+<p><span style="font-weight: 400;">I was able to finish the game in about 2.5 hours, and then another 30-45 minutes to wrap up the remaining trophies. And thanks to Odd Meter sending me a review code I was able to snag one of the earliest Platinums in this game in the world as well which was a fun first for me. Anyways, my overall thoughts are that this game was great. If you are really into cinematic games, third person adventure games, or even arthouse movies, you will probably dig Indika. If you are more into action games, this might not jive with you as it is mostly a walking sim with not a lot of innovative puzzles. The story and presentation is the real highlight here.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/O30gBiC3r5s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<hr>
+<p>Indika PS5 <a href="https://amzn.to/4cLpNGl">https://amzn.to/4cLpNGl</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>PlayStation Portal: A Deep Dive After 6 Months of Use</title>
         <author>
             <name>Marcus</name>
@@ -709,292 +937,6 @@
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/8P-7_CwNNw4" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <hr>
 <p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbEFZSHBNM3pFYTZyVXBQOFhuNTVYR1owcDZmQXxBQ3Jtc0ttdEZoMDE5dkx4VFRtdzFzZWZsVUtHU0lIWHVMdmtRVkh5MjNMbXhDT0l2S1Awc0VIZXp2Y3RTaVdVMkZPbjNsM1NaY05UZWM5NmN3bWxZclNHZ0F1N2drbm9pRkVfRlRpWnJKN3l4blFYVVUydWc3VQ&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=z21i63eJUro" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>PlayStation VR2 2024 Impressions: Powerful and Pricey Gaming</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/playstation-vr2-2024-impressions-powerful-and-pricey-gaming.html"/>
-        <id>https://kacboy.com/blog/playstation-vr2-2024-impressions-powerful-and-pricey-gaming.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/21/2024-03-27-PS-VR2-Impressions.jpg" medium="image" />
-            <category term="reviews"/>
-
-        <updated>2024-03-27T10:00:00-07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/21/2024-03-27-PS-VR2-Impressions.jpg" alt="" />
-                    Just a few weeks ago I tweeted that I got a PSVR2,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/21/2024-03-27-PS-VR2-Impressions.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=W8RYHBHcP5I\u0026amp;t=25s","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<p><!-- /wp:embed --></p>
-<p><!-- wp:paragraph --></p>
-<p>Just a few weeks ago I tweeted that I got a PSVR2, and I’ve been trying out as many games as I could to give you my impressions of this system in 2024. To give some background I’ve had quite a bit of experience in VR, this is my 3rd headset that I’ve owned, I previously had PSVR1 and meta quest 2 which I only ever used as a PCVR Headset. I played all of Boneworks and most of half life Alyx, and on PSVR1 and I mostly played a lot of Firewall Zero Hour but as we all know that headset was not a super enjoyable experience compared to the competition that grew around it. I’ve looked forward to trying this headset though ever since I edited the first Linus Tech Tips preview on the system around this time last year. With that said let's jump into my impressions</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/W8RYHBHcP5I?t=25s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Setup</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I had some minor nitpicks with the setup process, the instructions were not super clear, I was trying to set up my play area while standing up in my playspace which kept erroring out, but it worked smoothly when I sat down on the couch.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Glasses</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I also want to mention that why are the most accommodating headset I’ve tried with glasses, I have a few different pairs and even some sports goggles that I would use but PSVR 2 fits all my glasses even these larger ones that I wear day to day, though I still prefer my smaller pair usually cause the prescription is not as strong and just lets my eyes relax a little more in the confined headset. The eye centering menus are really good, but I was a little disappointed at the amount of aberrations around the edges of the lenses still, but I think those are kind of unavoidable with these types of fresnel lenses.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Eyes</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>The eye tracking is pretty insane, the foveated rendering is basically impossible to make out while you are actually in the headset which is amazing. But yeah the eye tracking is super cool, in some instances you can use your eyes to navigate menus and such and it is just the craziest thing. And the screens are really nice, the OLED is awesome and gets super bright and contrasty and the framerates are very solid through all the games I tried. And as for the resolution I would say the pixels are small enough that you can quite make them out individually and see an obvious screen door, but not so small that you cant see the aliasing happening.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Controllers</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>The remotes are alright, on my quest 2 I had hand straps which I think should come standard with all VR headsets as they allow you to fully let go of controllers and it lends a lot to immersion. They are a bit confusing when you first glance or pick them up as to what hand they go in but I’m sure I’ll get used to it.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I love the button on the bottom to view the exterior cameras, it;s a great way to jump in and out of the VR space besides pulling the entire headset off. Tracking seems about as good as quest 2 in my experience. I bought this unit for a really great price of $400, but the downside is that I don’t have the official included earbuds that clip into the back of the headset, but really any pair of earbuds work great and my hyperX headset actually fit over top of the whole headset so that was really great for immersion and probably better sound quality anyway. The single cable setup is awesome and I prefer having one wire over a potentially choppy wireless connection myself and it's miles better than thePSVR1 extra box and dozens of cables. And this way there's no battery life issues with the headset. The controller battery life is okay, I do prefer recharging to the double A’s of the quest 2 but I know that's up to the taste of each individual. I love having as many devices on USB C charging as possible.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>But let's talk about games. I tried a bunch of different games to get a wider feel for what works well on this system, I tried GT7 and walking dead saint and sinners of course, these are some higher profile games that I just needed to upgrade from the PS4 versions. And I tried some smaller indie games like Townsmen VR, Space Docker VR, and ForeVR Bowl.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Gran Turismo 7</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>GT7 just blew me away, it’s hard to show on video but the menus and up until the countdown to any race is all in the typical VR virtual display, and then it suddenly jump cuts into VR in the driver's seat and it’s one of the sickest and cleanest transitions ever. And I hadn’t played GT7 with the DualSense controller up to this point either. And I had a huge smile on my face the entire time. The way the mirrors actually work like they would in real life and the immersion was just incredible. I usually hate playing racing games in first person cause it’s too hard to see corners and such but this was obviously the most immersive way to feel like you were in the car and you could really spot the track and the turns but you just happen to be driving with a DualSense lol. I can see why this got so many people hooked and wanting to get steering wheel controllers.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Walking Dead</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Moving on to the Walking dead saint and sinners, this is a game I’ve tried on every VR headset I owned, and it just keeps getting better each time. The OLED really made this game pop with its dark spooky sections and dimly lit environments. I don’t know what I can say about this game that hasn’t already been said, it’s just great and one of the best VR adventure games out there and I look forward to playing deeper into the game than I ever have with this headset. And maybe I’ll check out the sequel one day if I ever get all the way through this one.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Townsmen VR</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Reminded me a lot of Black and White, but a more casual and carefree feeling since it’s not about being a literal god. Unfortunately this game made me very nauseous within 5-10 minutes of playing. I think partially due to how bright the art direction and gameworld is overall, but more so due to the floating head gameplay style and the way you navigate the game by grabbing the air around you to move and zoom in was just too much for my brain. But your mileage may vary as with all VR experiences.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Basically it’s like an RTS/city builder type game where you place various buildings and houses to create villagers that can do various tasks like collecting resources, construction, or combat if you get to some later stages. The fun thing is how you can zoom in and feel like you are standing in the middle of your town or be a god up in the sky and grab any character or object in the game world. You can grab animals, props, people to move them towards their objective or just throw them into the ocean or at each other. I was actually having issues where my omnipresent hands were causing mayhem without my intention but they luckily have a ghost-hand setting that makes your hands clip through things unless you intend to pick up them up, so that was perfect for me.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I wish it didn’t give me such a headache so I could get a bit deeper in the game and get a stronger grasp on some of the later stages with combat and such. But that’s the unfortunate reality of VR games. I hadn’t tried a top-down style VR game like this before so I’m glad I gave it a shot at least.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Space Docker VR</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>I really got into this game. It reminded me a bit of No Mans Sky, but a much more focussed and tight experience focussed solely in the cockpit. You are collecting cargo containers and dropping them off. It’s a really fun mix of speed and precision and I was blown away by some of the highscore times people were getting. I live the sense of momentum and disorienting nature of the controls if you're not careful, but I felt like I was a pro in no time, slamming brake and spinning my ship every which way. At one point a cargo container was shooting off into deep space which gave avery unique sense of dread as I sped away from the space dock trying to match it’s speed and orientation, with homebase shrinking away in the distance. If you really enjoy flying games, but want something a bit more involved besides just flying around in a ship, this is probably a great choice.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">ForeVR Bowl</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Next I tried out ForeVR Bowl from the aptly named developer ForeVR Games. I actually enjoyed this quite a bit, though I don’t have any friends so I couldn’t try out the full multiplayer aspect of it. I think this is more made to be a social bowling experience based on the controls and features it gives you. Regardless, I was impressed by the atmosphere and the amount of detail and freedom it allows for while you're in the bowling alley because of this though. The game lets you walk around anywhere in the bowling alley, and while it does’t contribute to the gameplay generally, I think having that feeling of freedom and immersion in the space is so so important in a VR game like this. If you were just locked to a couple square meters in front of your bowling lane it would feel a lot more claustrophobic and wouldn't give you that feeling of being at a bowling alley. With all that said, I recommend playing some of your own music or something cause it’s kind of eerie to be in this bowling alley by yourself with a couple of animated floating heads and background chatter going on around you. Or just play with some friends online if you have any. There’s even a camera so you could take candids or selfies with other people. There were quite a few bowling alley options ranging from realistic classic looking levels to more zany fun ones like being on the moon. And there's hundreds of really cool unlockable and discoverable bowling ball options that are all quite mesmerizing to look at.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Controls were pretty good, some choppiness, might've had to do with my hand movements going out of sight. I didn't actually do a formal tutorial as far as I can tell so I'm not sure if I was bowling optimally for the game, but I was mostly trying to bowl as I would in real life and it seems to work out well as in the physics seem quite realistic. I think I was acting a bit more restricted in my movements and steps because of my limited playspace and I didn’t want to hit my TV but I feel like everything just feels natural, which is great. If you want a VR bowling game and you have friends out of town who also like to bowl, this would be a good place to look out.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Conclusion</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>So is PSVR2 worth it in 2024? I think if you can find a used unit for 400 or less and you already have a PS5, yes it is. But at full price it’s a tough sell. And there has been recent news that PSVR2 will be getting PC support sometime this year and it sounds like Sony removed a lot of software roadblocks in the recent update. And most likely they will be releasing some sort of USB dongle to make it work with PCs. So if you have a PC this might actually be an option you can consider soon, but I would say it depends on your budget and playspace, because it’s a low to mid-range priced VR headset, but it has eye tracking and OLED, but doesn’t have tracking base stations so you’ll probably have to do some more research to figure out what you want and need. One thing about the lack of general support compared to PSVR1 that disappointed me is some of the ports that were left behind, like Minecraft and Hitman 3. I would love to give those a try again with this new headset.</p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>PS+ Classics Catalogue | Buying PSP Games in 2024</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/ps-classics-catalogue-or-buying-psp-games-in-2024.html"/>
-        <id>https://kacboy.com/blog/ps-classics-catalogue-or-buying-psp-games-in-2024.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/22/2024-03-09-PSP-Cross-Buy.jpg" medium="image" />
-            <category term="features"/>
-
-        <updated>2024-03-09T10:00:00-08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/22/2024-03-09-PSP-Cross-Buy.jpg" alt="" />
-                    I wanted to talk about the strange state of Cross-Buy games on&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/22/2024-03-09-PSP-Cross-Buy.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=7_MWfmV0u54\u0026amp;t=1s","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=7_MWfmV0u54&amp;t=1s</div>
-<figcaption class="wp-element-caption">Here's why you should keep an eye on the PSN stores on retro PlayStation systems as more classic titles are added to PS+ Premium going forward.</figcaption>
-</figure>
-<p><!-- /wp:embed --></p>
-<p><!-- wp:paragraph --></p>
-<p>I wanted to talk about the strange state of Cross-Buy games on the PlayStation store. Particularly in regard to retro games like PSOne classics, PS3, and even PSP slash Vita games and the new PS Plus Premium program with classic titles being added each month. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you’re not familiar, the Cross Buy initiative started way back in 2012 with the PS3 and Vita, where Sony would basically bundle Vita and PS3 versions of games together into one purchase. PlayStation All-Stars Battle Royale, Sly Cooper 4, Ratchet &amp; Clank: Full Frontal Assault, and Sound Shapes were some of the first titles to participate in this program. Since 2012 this program has greatly expanded and become the norm in many ways with Cross Play and Cross Save options available in many games and platforms.<br><br>And then the other key component in this video is PS Plus Premium. The new tiers of the PlayStation Plus subscription program that for all intents and purposes replaced the PS Now program in 2022 and subtly raised the prices of PS Plus subscriptions while giving the impression of more value. The premium tier specifically includes a larger catalog of Classic playstation games that you could stream or download while subscribed. What you might not know is that when these classic games are added to the PS4/PS5 stores on PS Plus, they are also listed and available to purchase outright, and the juicy part is that they honor existing digital purchases from legacy systems like PSP and PS1 Classics. Most of the PS2 and PS3 Classics that are on PS4/PS5 at the moment are actually just ports or remasters that already existed for PS4 specifically (example Jak, Parappa). And then at the end of last year, everyone thought Thrillville off the rails would be the first emulated PS2 release on the service, but it also turned out to just be another PSP port. So we’ll have to wait and see if PS2 or PS3 ever get the same cross-buy treatment with direct emulated ports.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Enough about PS Plus, I want to talk about the cross buy shenanigans going on. As you may know, the browser storefront of the PS Store removed PSP, Vita, and PS3 titles from appearing way back in 2021. The PSN Store on PSP consoles was also shut down in that year. However, other than some annoying login and payment restrictions, you can still buy PSP games on a Vita or PS3 systems. Then on the PSP you can still access and download any digital purchases you made, even though the store doesn’t load. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Another thing on the backend that went along with these service restrictions is that developers can no longer access or change their pricing for their games on these legacy systems. So basically any PSP, Vita or PS3 game listing is just stuck in time as it was in 2021. This has some good and bad things. The good thing is that the prices are now frozen from inflation or exchange rate adjustments, but the downside is that they are never going on sale again, unless you count the loophole I will get into later. Which leads me to some interesting findings and examples of why you should still keep an eye on the PS Store on these older systems if you still have them working and like to buy your digital games.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The most recent example that jumped out to me was Jet Moto 2, I had this game on PS1 growing up so I had already purchased it digitally a few months ago to play on Vita and PS3 via the PS Classic version. So lucky for me this appeared in my PS5 library as a owned game. Taking a look at the pricing of this game, if you buy it on a legacy system it only costs about $6, whereas if you buy it on PS4/PS5 it costs more than double! I checked a few other games like Hot Shots Golf 2, and it looks like PS1 Classics are all cheaper on the older systems.<br><br>Taking a look at some of the PSP ports it gets a bit more complicated. Resistance Retribution is more expensive on Vita/PS3. Meanwhile Killzone Liberation is slightly cheaper on PS3/Vita. Probably because resistance was a bit newer of a game on PSP? Hard to say. And then Syphon Filter Logans Shadow is not available standalone to buy on PS3/Vita for some reason, but it is bundled in a pack with Killzone Liberation which ends up much cheaper overall if you buy them both that way. I know that might be confusing but long story short, its worth looking at these old prices while they are still available. And yes, digital games you don't really own them and all that yada yada but that’s a whole other video discussion rabbit hole.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Lastly, if a game is cross-buy and has a native PS4 version, technically it can go on sale for older platforms. I’ve seen this user SilentBun on Twitter who still posts Vita game discounts when they happen that are cross-buy with PS4 versions. And as the ultimate example of cross-buy compatibility I wanted to look at RETRO CITY RAMPAGE DX. Which is the last game that ever released on PSP in 2016. This game still goes on sale regularly for around $5 and if you buy it on a PS4, you will also get it on Vita, PS3, and PSP. That’s some great value and that’s the amazing reality of cross buy titles when developers are nice enough to implement it. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Anyways that’s what I wanted to talk about, hopefully one day we get PS2 and PS3 games properly added into this cross-buy mix, and less money grab “remaster” ports like Red Dead Redemption on PS4 for full price... Thanks for watching if you’ve made it this far, like and subscribe and all that good stuff. Let me know what games you want to see come to the PlayStation plus classics catalog.</p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>What is the BEST Android PlayStation Remote Play App?</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/what-is-the-best-android-playstation-remote-play-app.html"/>
-        <id>https://kacboy.com/blog/what-is-the-best-android-playstation-remote-play-app.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/20/2024-03-02-Remote-Play-App-Comparison.jpg" medium="image" />
-            <category term="features"/>
-
-        <updated>2024-03-02T10:00:00-08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/20/2024-03-02-Remote-Play-App-Comparison.jpg" alt="" />
-                    In this video I wanted to make an ultimate comparison guide for&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/20/2024-03-02-Remote-Play-App-Comparison.jpg" class="type:primaryImage" alt="" /></p>
-                <p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=BZ1aKOCaCFU","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
-<p><!-- /wp:embed --></p>
-<p><!-- wp:paragraph --></p>
-<p>In this video I wanted to make an ultimate comparison guide for each of the current major apps in PlayStation Remote Play on Android. I'm going to be testing everything on the Galaxy S10 I think as a slightly older Flagship it'll still perform as a pretty good baseline since It has a 1440p screen that also supports HDR. As I go through each app I'm going to be looking at the availability the pricing of any premium features the setup process for each of them as well as take a look at the options available and then lastly I'll do a very quick and dirty latency test so you can take a look. I'll also give you the potential use case for each one and what I think the advantages of each are. I'll also really quickly try out the PlayStation Portal at the end because it's technically running Android so I'll just include that as well.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Before we even touch any of these apps though you'll need to make sure that your PS4 or PS5 is actually enabled for remote play in the settings, once that's ready let's get started with the official Remote Play app first.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/BZ1aKOCaCFU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading"><a href="https://play.google.com/store/apps/details?id=psplay.grill.com&amp;hl=en_CA&amp;gl=US">Remote Play</a></h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's available for free on the Android play store and the Apple App Store as well as downloadable for Windows or Mac OS from the PlayStation website. It's also available on Android TV. Of course, this one is the easiest to set up for remote play gaming once it's downloaded you'll just need to sign into your PSN account and it should be ready to go/ Although the PlayStation network has pretty regular login issues on Android in my experience. The options available in the official app<br>are fairly limited the on-screen controls are not customizable. the video quality does let you turn on and off HDR, change the resolution, and the frame rate but there's nothing else beyond that. Notably, bitrate is available on a lot of the other apps. There are some options for mobile data usage.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Another thing that's kind of strange is it does let you use the Android keyboard or an external keyboard but there's no support for non-official controllers other than that, so that means it only supports the Dualshock 4, the DualSense, as well as the Backbone. This app has been known to not work with many Android handheld devices from the likes of Retroid or AyaNeo or other devices like that. Even on Chrome OS which natively runs Android apps I couldn't get the Dualshock 4 or the DualSense controllers to work but that might have been a model specific case. So basically you should start by using this Official App if it's available on your platform but if anything doesn't work properly or you have a third-party controller, then you should probably look into the other options, which I'll get into now.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading"><a href="https://play.google.com/store/apps/details?id=psplay.grill.com&amp;hl=en_CA&amp;gl=US">PSPlay</a></h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>PSPlay is developed by grill2010 and it's available for about $5 to $10 depending on your exchange rate and region on the Android play store and the Apple App Store and Apple TVs. It's definitely more complicated to set up especially if you want to connect outside of your home network but but in many cases it is the best option for Android users because of the limited compatibility of the official app, but also just the sheer amount of options and customization that this app gives you. As I said it's a little bit more complicated to set up, you'll need to follow the instructions pretty closely. You'll need to find the PlayStation ID of your Playstation Network account following these instructions or there's <a href="https://psn.flipscreen.games/">this website that I found</a> that actually gives you all the info you need for any of these apps. You just have to type in your PlayStation username and it'll give give you the number that you need and then go on your PS5 and Link the device type in that code should be good to go. But again unlike the official app, if you want to connect to your PS5 remotely outside of your own home network using this app, you're going to have to set up some port forwarding. It might be able to do it automatically for you but it doesn't work for me. It really depends on your router and access point setup.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Moving on from that, there are just so many options in this app. The settings list just goes on forever and you can go fairly deep into any of these options, especially the streaming settings. You can adjust bitrate, you can change the decoding method, you can even change the light bar colour of your controller! It does actually give you an option for haptic feedback and then as far as controllers are concerned you should be able to use any. I have this funny Bluetooth keyboard but unfortunately this phone was not letting me set that up as a game controller in any of these apps but any sort of Bluetooth gamepad should work and be able to map with this app. You can also use PSPlay as a controller. I would commend this application if you're having any sort of issues or controller issues with the official app or if you just really want more settings in regard to your connection or bandwidth or even just the on-screen controller gives you a lot more options. It also might just be a placebo or copium but some people online say that they have a smoother connection with this application maybe it has less processing overhead or something on the back end? I couldn't really tell in my day-to-day experience, but again we'll have the latency test at the end and we'll see if we can spot any difference</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading"><a href="https://git.sr.ht/~thestr4ng3r/chiaki">Chiaki</a></h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Moving on to our next app here, Chiaki is available for free for Android, Mac OS, Windows, and Linux (including the SteamDeck and even the Nintendo Switch)! This would obviously be a very complicated application to set up on some of those platforms but on Android it's not too bad, you just need to go to the The Source Hut website and download the APK, and then you can just side load it onto your Android phone. Again, I strongly recommend using that website that I mentioned in the PSPlay section; you just have to type in your username, and it'll give you your PSN ID number. And then for this app specifically, you'll need to do your code in Base-64 for some reason, but this website will give you that code, and you can just type that into the app.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>One nice thing was that this app actually picked up my PS5 on my home network before I even signed in or registered or anything so that was nice to see. So once I registered, it just worked. Taking a look at the settings here, there's not as many settings as PlayStation play but more settings than the official app. You can adjust bitrate and the resolution and the codec. You can actually export your settings so you could save your settings between phones. I don't think I saw that in the other apps, so that's pretty cool if you're switching devices a lot. It does say it has rumble support but I couldn't get that working. However, it's also not full haptic feedback with the PS5 DualSense controller. I think PSPlay and the official app support that. I don't actually see an option to adjust the on-screen button layout. Because of the more technical and hardcore installation process of this app, especially on some of the more weird platforms like Nintendo Switch, I would only recommend this app if you really want to use remote play on a weird platform like the Switch or the SteamDeck or if you're really cheap and this app is free on Android compared to PSPlay which is a couple of dollars. But otherwise, I think you're just better off trying one of the other apps that I've already talked about.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading"><a href="https://play.google.com/store/apps/details?id=com.tmacdev.repl4y">REPLAY</a></h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Lastly, the next app is called REPLAY. This app is another alternative if you're not having a great experience with PSPlay or the official app or Chaiki. It's only available on Windows and Android, but unfortunately, it costs about £6 or $10 CAD or more depending on the platform you want to buy it on and the platforms that you want to stream. The upside is that this app says it can support a lot of controllers out of the box, including steering wheels, believe it or not. But yeah, specifically in this case, it was £6 for PS5 support when I purchased from the website. But if I tried to purchase it on the Android app itself, it was about $12, and then that would only let me use it on a PS5. I would still have to pay more if I wanted to use PS4. And then the console registration and account sign-in are almost identical to what you need to do with the PSPlay app, so you'll need your full PSN account ID number. And then looking at the settings here, they are fairly limited. You can edit the on-screen controls layout. It does let you turn on and off HDR and change the decoding process, and you can set the resolution and frame rate, some of those basic things. But otherwise, not a whole lot of settings compared to even Chaiki, but especially against PSPlay. Then another thing I found is that the initial connecting to the console is a bit slow compared to some of the other options in this video.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">PlayStation Portal</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>Quickly taking a look at the PlayStation Portal, I think this thing just has a huge lack of settings, especially there's no ability to disable HDR on this device, and not even any options to set the quality preferences. I find that sometimes when the quality drops if you're using this device, it almost never returns back to the full 1080p (prior to patch 2.0.6). But if you just disconnect and reconnect the device, it just returns to full quality without any issues. And then the HDR thing really bothers me because if you don't want HDR to stream to the Portal, you're going to have to disable HDR on your PS5, even if it's in an HDR TV setup. Another really dumb thing about the Portal is you can't Remote Play to PS4; it only works with PS5, so all of these apps beat it in that regard as well. The only upside of the Portal is that it works really easily out of the box, and you get the full haptic feedback dual sense experience. But if you just want pure software functionality and options, basically any of these Remote Play apps are better.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:heading --></p>
-<h2 class="wp-block-heading">Latency Comparison</h2>
-<p><!-- /wp:heading --></p>
-<p><!-- wp:paragraph --></p>
-<p>So as I said, here's a quick and dirty latency test you can just quickly compare. Of course, this is on a home network; connecting remotely has so many variables to it I don't really see the point of testing that.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":747,"sizeSlug":"large","linkDestination":"media"} --></p>
-<figure class="wp-block-image size-large"><a href="https://kacboy.wordpress.com/wp-content/uploads/2024/04/image.png"><figure class="wp-image-747"><img loading="lazy"  src="https://kacboy.com/blog/media/posts/20/image.png" alt="" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://kacboy.com/blog/media/posts/20/responsive/image-xs.webp 300w ,https://kacboy.com/blog/media/posts/20/responsive/image-sm.webp 480w ,https://kacboy.com/blog/media/posts/20/responsive/image-md.webp 768w ,https://kacboy.com/blog/media/posts/20/responsive/image-lg.webp 1024w"></figure></a></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Looking at the results, I found that the PlayStation portal has a lot of ghosting in this comparison and that's because it's the only LCD display in these clips whereas the Galaxy S10 is an HDR OLED screen. Surprisingly, REPLAY was actually the fastest and most consistent on average of all of the apps with Chiaki a close second. The portal was the slowest but the ghosting effect made it kind of hard to judge so I wouldn't say that's very definitive but PSPlay was actually the slowest app on average. It was a lot less consistent and had a lot more variance in each test clip so I would say REPLAY and Chiaki are actually the best for latency, and then PSPlay and the official app are both kind of close in third and fourth place.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>In conclusion, I think PS Play has by far the most options and nitty-gritty settings to mess with. If I had to rank these I would put:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list {"ordered":true} --></p>
-<ol>
-<li style="list-style-type: none;">
-<ol><!-- wp:list-item -->
-<li>PSPlay</li>
-</ol>
-</li>
-</ol>
-<p><!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li>Chaiki</li>
-</ol>
-</li>
-</ol>
-<p><!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li>Official App</li>
-</ol>
-</li>
-</ol>
-<p><!-- /wp:list-item --></p>
-<p><!-- wp:list-item --></p>
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li>REPLAY</li>
-</ol>
-</li>
-</ol>
-<p><!-- /wp:list-item --></p>
-<p><!-- /wp:list --></p>
-<p><!-- wp:paragraph --></p>
-<p>Just cause I think the price on REPLAY is quite steep and having to pay for each system is just kind of ridiculous compared to the other options out there. That's my personal ranking, hopefully this has been a little bit helpful to you in getting to know what options are available for Remote Play on Android.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>--</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>PSN ID Grabber <a href="https://psn.flipscreen.games/" target="_blank" rel="noreferrer noopener">https://psn.flipscreen.games/</a><br>Official Remote Play <a href="https://play.google.com/store/apps/details?id=psplay.grill.com&amp;hl=en_CA&amp;gl=US" target="_blank" rel="noreferrer noopener">https://play.google.com/store/apps/de...</a> <br>PSPlay <a href="https://play.google.com/store/apps/details?id=psplay.grill.com" target="_blank" rel="noreferrer noopener">https://play.google.com/store/apps/de...</a> <br>Chiaki <a href="https://git.sr.ht/~thestr4ng3r/chiaki" target="_blank" rel="noreferrer noopener">https://git.sr.ht/~thestr4ng3r/chiaki</a> <br>REPLAY <a href="https://play.google.com/store/apps/details?id=com.tmacdev.repl4y" target="_blank" rel="noreferrer noopener">https://play.google.com/store/apps/de...</a></p>
-<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
