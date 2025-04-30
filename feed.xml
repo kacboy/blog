@@ -3,12 +3,68 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2025-04-29T15:22:02-07:00</updated>
+    <updated>2025-04-29T21:42:14-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
     <id>https://kacboy.com/blog</id>
 
+    <entry>
+        <title>Warfare Legacy Collection Review</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/warfare-legacy-collection-review.html"/>
+        <id>https://kacboy.com/blog/warfare-legacy-collection-review.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/42/Warfare-Legacy-Collection.jpg" medium="image" />
+            <category term="reviews"/>
+
+        <updated>2025-04-26T10:00:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/42/Warfare-Legacy-Collection.jpg" alt="" />
+                    Warfare Legacy Collection is a new Unity-based port of the classic online&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/42/Warfare-Legacy-Collection.jpg" class="type:primaryImage" alt="" /></p>
+                <p><span style="font-weight: 400;">Warfare Legacy Collection is a new Unity-based port of the classic online flash games from Con Artist Games with additional work from the electric toy company, originally published by Armor Games back in 2008 and 2009. ConArtist Games also developed The Last Stand zombie games or the early Crush the Castle games if you remember those, among a few other select titles published by Armor Games - though they were also available on other websites like Newgrounds and Kongregate. These games really stood out to me back in the day because of their fairly mature subject matter among the flash game space, their very realistic graphical style and simple yet satisfying gameplay loops. you can actually still play the original warfare thanks to the ruffle engine which allows flash programs to be emulated in modern browsers despite the original software dropping support in 2017.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/xJKBoUey6yc" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p><span style="font-weight: 400;">In fact, I actually replayed the original 2 just prior to booting up this legacy collection to see how they've aged. So I'd like to talk about the originals a bit first and compare this new collection to the source material. Unfortunately I never had a chance to play the 3D entry of the series ‘warfare online’ because i didn't have a windows pc at the time it was active</span></p>
+<p><span style="font-weight: 400;">The core gameplay of this series is a very simple RTS game that they call a tug-of-war type game. you deploy various classes of troops into distinct lanes that have limited cover or trenches, there's no backtracking and no switching lanes. It makes it a very comprehensible strategy game and in later levels becomes quite challenging, deciding what troops to deploy for maximum effect and forward momentum. Balancing these decisions with the moral bar that goes up or down depending on your success in each rock paper scissors type conflict and the limited deployment resources is a fun juggling act to get into.</span></p>
+<p><span style="font-weight: 400;">The original games were both about 30 minutes to beat one of the two available ally campaigns. You usually choose between the western allies campaign or the axis campaign in each game, which are mostly just mirrors of one another, and the axis campaign is typically the harder/new game plus type mode.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/kqSF2LJR3iU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p><span style="font-weight: 400;">The original Warfare 1917 this entry in hindsight is a bit of an outlier among its sequels because it's a single plane of action, whereas in later entries you can choose to deploy units on 3 different tracks or lanes for more complex strategies. it sets you up well for the increased complexity as you get deeper into this series. The world war 1 setting also makes it really feel appropriately like an endless standoff or stalemate, and in most cases the only way forward is through strategies that involve a lot of brute force, missile barrages, and high casualties. as alluded to the graphics in these games are very realistic stylistically, especially for a 2000s flash game. mustard gas, mortars blowing soldiers apart, it's really graphic and the sound design and presentation is a really authentic feeling, and unfortunately there's no way to get through these battles without a lot of soldiers dying. Going back to the original though, you can really see why a remaster was necessary, because unlike a lot of flash games that used mostly vector graphics that can upscale easily. These games used a lot of realistic bitmap textures and photo references that are stuck at a very low resolution and dont blow up particularly well.  pretty much everything except the soldier is not scalable. I don't remember them ever having fullscreen as a feature. I think that's only possible from the ruffle emulator. like many early 2000s games I think these would look a lot better on a CRT, even in fullscreen they would probably look great still.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/RqUXTjUmYm0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p><span style="font-weight: 400;">Warfare 1944 added a more complex 3 lane system that allows for more interesting flanking strategies, limited range and visibility, and more tough decisions. the presentation is largely the same, though there's  a lot more level variety in the battlefields compared to the no mans land of world war 1. I feel like this game was a lot more balanced overall. I found it more worthwhile and necessary to try different strategies compared to the pure cannon fodder brute force approach of the first game. it wasn't necessarily harder, just more varied and fun and a less literal tug of war match. One thing in particular I didn't like is the specific grenade or airborne abilities you had to activate by clicking specific soldiers as opposed to the quick bar and automated grenade throws available in 1917. This felt too in depth compared to the rest of the game and the controls given to you, considering other features like locking cover or stockpiling multiple squads on one cover were no longer available. In some cases I wasn't even able to select the particular commander I needed for airstrikes if he was in a big clump of other unit types. beyond some of these gameplay nitpicks, it's a really great sequel and both games are just top tier among the flash game community. They also both have custom game modes in addition to the double sided campaigns so there was just so much replay value in these games.</span></p>
+<p><span style="font-weight: 400;">Now let's move on to my thought's on this updated Legacy Collection and see what's changed.</span></p>
+<h2><strong>Graphics</strong></h2>
+<p><span style="font-weight: 400;">The game still works in 2D like the originals, but it looks like the assets were created in 3D software this time around. Some of the charm of the original is lost in the artstyle change i think, but i'm sure this is the much more efficient way to create a game like this nowadays compared to stitching together big 2D photo references. I will say that the soldiers stand out even more than in the original games and they look VERY cartoony, and while the levels themselves are maybe less on the realistic side, I would say the gap between the soldier and the world styles is larger than it was. It doesn’t feel as gritty or realistic generally.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/3U-hz8b04nY" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p><span style="font-weight: 400;">I do have to give props to the heavily increased particle and environmental effect though, when battles get really long more crazy the amount of visual chaos on screen definitely reflects that better than the classics</span></p>
+<p><span style="font-weight: 400;">The UI is all redone but generally has the same style and layout. The progress and moral bars along the top are slightly different, which was a surprise to me considering how important they are and how much you look at them. idk what it is but they just look like some very unity engine looking bars if you know what i mean haha. also the left bar is just not aligned ever so slightly. very small things in a very important gameplay feature.</span></p>
+<p><span style="font-weight: 400;">Performance is great, I doubt any computers will have trouble running this game, I didn't check the FPS but it's an easy 4K60 or higher with all the footage I captured. I didn't see any graphics options either so I doubt they are necessary at all. theo originals feel like they are animated at 30fps during gameplay so this new one is smooth as butter when you switch into it.</span></p>
+<h2><strong>Audio</strong></h2>
+<p><span style="font-weight: 400;">Besides the visual presentation changes, a lot if not all of the audio has been redone or improved. The sound effects and general atmosphere sounds are really great and have a lot more range now. idk if flash games had an overall size limit or audio bitrate limitations but those are definitely all gone with this new entry. There's also new voice acting in between campaign missions that makes the mission screens feel more alive and just up the prod value across the board.</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/W84jiHFCAKM" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2><strong>Gameplay</strong></h2>
+<p><span style="font-weight: 400;">The gamespeed and general feel is very much the same and familiar. Just based on my playtime I think the gamespeed might be a few milliseconds slower overall just cause new campaigns were about 40 minutes instead of the 30 mins with the flash versions. its also maybe just a touch more difficult? I died once in each flash campaign but died 2-5 times in the legacy collection versions, which I played immediately after refreshing myself on the originals.</span></p>
+<p><span style="font-weight: 400;">something that also stood out to me was there was still no restart battle button, i think that would've been a nice quality of life feature to add, especially on the new battle of the bulge levels, because they are quite a bit lengthier taking from 5-10 mins instead of the 2-5 of the original campaigns. It's annoying when the moral bar is down the wire and you have to wait for the enemy's last soldier to pass your edge of the screen or quit out to the menu to reload.</span></p>
+<p><span style="font-weight: 400;">Perhaps it's a result of both games using the same new modern engine or something for them to feel harder, but overall they are the same games. same levels, units, progression, strategies. this is the best way to play the warfare games. Maybe one day we'll get an offline version of warfare online and I could finally check that out lol.</span></p>
+<h2><strong>New Features</strong></h2>
+<p><span style="font-weight: 400;">Lastly, I want to talk about the new campaign that's exclusive to the legacy collection, Battle of the Bulge. This is an awesome campaign that really feels like the developers are taking the best mechanics of both entries to make a very gameplay driven experience. There's way more open ended level design, unique objectives, and a lot of shuffling of available units across much larger levels in this campaign. The levels are 3 lanes style, but they have a mix of cover and trenches for the first time, and they are also split into multiple horizontal sections sothe battles feel much longer and require more forward thinking than just brute forcing a huge army to pass the edge of the screen. Almost every horizontal section has different challenges and requires a new strategy of deployment and positioning. it feels like a third game, and honestly could have been treated as such,</span></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/TCAcMn7SAzE?t=2152s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p><span style="font-weight: 400;">The highs and lows of this campaign are much greater and more exciting than any of the classic levels because of these varied objectives doing a better job of switching between some of the series toughest challenges and really fun power fantasy style events.</span></p>
+<p><span style="font-weight: 400;">I played for over an hour to complete the first mirror of the campaign, and I failed many more times compared to the classic entries. it's harder, more varied, and requires more strategy than ever. Honestly I would recommend this collection just for the  new campaign, though you should really replay the first two games to get up to speed, as they recommend. otherwise you might have a really hard time.</span></p>
+<h2><strong>Conclusion</strong></h2>
+<p><span style="font-weight: 400;">Wrapping it all up, the Warfare Legacy Collection is a solid remaster of two classic flash RTS titles, bringing them up to modern standards with redone graphics and audio. While the new art style might not be my preference in fully capturing the gritty realism of the originals, the updated presentation and the addition of the Battle of the Bulge campaign provides a very worthwhile experience for both long-time fans like me and potential newcomers. Definitely check this out if you are a fan of the classics or are into straightforward single-player RTS games.</span></p>
+<hr>
+<p><a href="https://store.steampowered.com/app/2745870/Warfare_Legacy_Collection/"><span style="font-weight: 400;">https://store.steampowered.com/app/2745870/Warfare_Legacy_Collection/</span></a><span style="font-weight: 400;"> <br></span><a href="https://armorgames.com/play/2267/warfare-1917"><span style="font-weight: 400;">https://armorgames.com/play/2267/warfare-1917</span></a><span style="font-weight: 400;"> <br></span><a href="https://armorgames.com/play/4071/warfare-1944"><span style="font-weight: 400;">https://armorgames.com/play/4071/warfare-1944</span></a><span style="font-weight: 400;"> </span></p>
+<p><br><br></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Uncharted 2 Multiplayer: Back from the Dead!</title>
         <author>
@@ -844,99 +900,6 @@
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/O30gBiC3r5s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <hr>
 <p>Indika PS5 <a href="https://amzn.to/4cLpNGl">https://amzn.to/4cLpNGl</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>PlayStation Portal: A Deep Dive After 6 Months of Use</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/playstation-portal-or-206-hdr-issues.html"/>
-        <id>https://kacboy.com/blog/playstation-portal-or-206-hdr-issues.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/23/2024-04-03-PS-Portal-Rant.jpg" medium="image" />
-            <category term="reviews"/>
-
-        <updated>2024-04-03T14:00:00-07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/23/2024-04-03-PS-Portal-Rant.jpg" alt="" />
-                    It’s been a few months since the PlayStation Portal launched, and while&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/23/2024-04-03-PS-Portal-Rant.jpg" class="type:primaryImage" alt="" /></p>
-                <p>It’s been a few months since the PlayStation Portal launched, and while it initially faced mixed and negative feedback, it has been selling incredibly well. In some markets, it remains difficult to find, proving that despite its flaws, there’s a strong demand for the device. As someone who relies on Remote Play frequently, I picked one up as soon as I could and have been using it regularly. While I have some major gripes with it, I also think it has a lot to offer. Let’s break it all down, starting with the hardware.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/z21i63eJUro" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h2>The Hardware: Design Pros and Cons</h2>
-<p>When the PlayStation Portal was first leaked, I did a reaction video, and my opinion hasn’t changed—I still dislike the design. The overall aesthetic of the PS5 generation just doesn’t appeal to me, especially when compared to previous PlayStation generations. It’s strange, considering that Mark Cerny has led PlayStation console design since the Vita, yet the PS5 and its accessories feel like such a radical departure from his past work.</p>
-<p>That said, while the Portal looks odd, its form factor is actually fantastic for ergonomics. It sits between the Steam Deck and the Nintendo Switch in size, but many reviews—and my own experience—suggest that it’s more comfortable to hold than both. This is because it essentially splits a DualSense controller in half, placing the screen in the middle. This design makes it one of the most comfortable handhelds to use for long sessions.</p>
-<p>The placement of the charging port and aux port could be better, as they’re slightly difficult to reach. However, I do appreciate the small lip on the back of the device, which makes it easy to pick up and hold without smudging the screen. But while the physical design has its strengths, the screen introduces one of the Portal’s biggest flaws—its HDR issues.</p>
-<h2>HDR Issues: A Major Problem</h2>
-<p>The PlayStation Portal has significant problems with HDR when streaming via Remote Play. Many users, including myself, have encountered this issue, and the lack of updates to fix it is frustrating. Even worse are the absurd workarounds being suggested online, which are simply unacceptable.<br><br></p>
-<blockquote class="reddit-embed-bq" data-embed-height="546"><a href="https://www.reddit.com/r/PlaystationPortal/comments/185m4dc/hdr_comparison_shots/">HDR Comparison shots</a><br>by<a href="https://www.reddit.com/user/bombchu_/">u/bombchu_</a> in<a href="https://www.reddit.com/r/PlaystationPortal/">PlaystationPortal</a></blockquote>
-<p>
-<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
-</p>
-<p>For those unfamiliar, here’s the problem: the Portal receives an HDR signal from the PS5, despite being an SDR LCD screen that doesn’t have the luminance range to properly display HDR content. This results in overexposed, blown-out whites, making some games nearly unplayable. For example, in NHL games, the ice and bright jerseys become indistinguishable, creating a terrible experience. I’ve also noticed this issue in games like Spider-Man and Hogwarts Legacy, where the sky turns into a solid white blotch, losing all cloud detail and depth.</p>
-<p>The most commonly suggested solution? Unplugging your PS5’s HDMI cable every time you want to use Remote Play. That’s a ridiculous fix that completely defeats the purpose of a remote experience. Other suggestions include turning off VRR, limiting the PS5 to 1080p, or disabling 120Hz refresh rates—though these solutions seem more related to latency than HDR. To make matters worse, when using Remote Play, you cannot access the PS5’s Screen and Video settings to disable HDR, meaning there’s no easy way to fix this problem without physically interacting with your console.</p>
-<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
-<figure class="gallery__item"><a href="https://kacboy.com/blog/media/posts/23/gallery/ps-portal-rant.00_04_17_23.still001.png" data-size="1920x1080"><img loading="lazy" src="https://kacboy.com/blog/media/posts/23/gallery/ps-portal-rant.00_04_17_23.still001-thumbnail.webp" alt="" width="768" height="432"></a></figure>
-<figure class="gallery__item"><a href="https://kacboy.com/blog/media/posts/23/gallery/ps-portal-rant.00_04_45_05.still003.png" data-size="1920x1080"><img loading="lazy" src="https://kacboy.com/blog/media/posts/23/gallery/ps-portal-rant.00_04_45_05.still003-thumbnail.webp" alt="" width="768" height="432"></a></figure>
-</div></div>
-<h2>Testing the Issue: What’s Really Going On?</h2>
-<p>I ran multiple tests on my PS5, TV, and Portal setup to understand the root of the issue. Here’s what I found:</p>
-<h3>Test Scenarios</h3>
-<ul>
-<li>
-<p><strong>HDMI Link (Optimal Setup):</strong></p>
-<ul>
-<li>
-<p>HDR Auto → Problem occurs</p>
-</li>
-<li>
-<p>HDR Off → Fixes the issue</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>HDMI Unplugged:</strong></p>
-<ul>
-<li>
-<p>HDR Auto → Problem occurs</p>
-</li>
-<li>
-<p>HDR Off → Fixes the issue</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>No HDMI Link:</strong></p>
-<ul>
-<li>
-<p>HDR Auto → Problem occurs</p>
-</li>
-<li>
-<p>HDR Off → Fixes the issue</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>The key takeaway? HDMI Link is not the issue; it’s the way the PS5 interprets HDR compatibility with the TV and sends the signal to the Portal.</p>
-<p>To further verify this, I tested Remote Play using the official Android app and PS Play on a phone that supports HDR. Both apps exhibited the same blown-out whites when HDR was enabled on the PS5 but disabled in the app. However, when HDR was enabled on both the PS5 and the app, the image looked great.</p>
-<p>One interesting discovery: if you connect to your PS5 <strong>while it is already inside the Screen and Video settings menu</strong>, you can still adjust HDR settings remotely. This means the PS5 is capable of dynamically adjusting the HDR output during a Remote Play session—it just doesn’t allow users to access these settings normally. A simple firmware update from Sony could fix this by either (1) allowing users to access the Screen and Video settings during Remote Play or (2) automatically disabling HDR output when streaming to a non-HDR device like the Portal.</p>
-<h2>Latency Issues: Improving but Not Perfect</h2>
-<p>Sony released an update (version 2.06) on April 2nd, which reportedly improved video bitrate quality. While I’ve noticed that the Portal now holds its 1080p connection better, some latency and stuttering issues remain. Previously, if my TV was streaming video, the Portal’s stream quality would degrade and never recover unless I manually disconnected and reconnected. Since the update, it appears to handle these situations more gracefully, but only time will tell how well this holds up over extended use.</p>
-<h2>Hacking the Portal: TheFlow0’s Findings</h2>
-<p>Earlier this year, hacker TheFlow0 managed to exploit the Portal, but Sony quickly patched the vulnerability in version 2.06. While this is disappointing for those of us who hoped to run homebrew apps on the device, TheFlow0 stated that he never intended to release the exploit publicly. He also noted that officially reporting security flaws to Sony only delays the inevitable patches by a few weeks. At some point, the exploit details will be disclosed publicly, but for now, Sony has locked down the device.</p>
-<h2>The Future of the Portal</h2>
-<p>The PlayStation Portal remains a mixed bag. On the one hand, it offers a fantastic ergonomic experience and a continually improving streaming quality. On the other hand, the HDR issue is a significant flaw that needs urgent attention.</p>
-<p>Sony has two potential solutions: either give users access to the Screen and Video settings during Remote Play or implement a backend fix that forces SDR output when streaming to non-HDR devices. Until then, Portal users will have to deal with frustrating workarounds.</p>
-<p>If you’re experiencing this issue, I’d love to hear about your setup—what kind of TV are you using, and are you seeing the same problems? Let me know in the comments, and let’s hope Sony addresses this sooner rather than later.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/8P-7_CwNNw4" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<hr>
-<p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbEFZSHBNM3pFYTZyVXBQOFhuNTVYR1owcDZmQXxBQ3Jtc0ttdEZoMDE5dkx4VFRtdzFzZWZsVUtHU0lIWHVMdmtRVkh5MjNMbXhDT0l2S1Awc0VIZXp2Y3RTaVdVMkZPbjNsM1NaY05UZWM5NmN3bWxZclNHZ0F1N2drbm9pRkVfRlRpWnJKN3l4blFYVVUydWc3VQ&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=z21i63eJUro" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span></span></p>
             ]]>
         </content>
     </entry>
