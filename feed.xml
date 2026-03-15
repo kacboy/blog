@@ -3,14 +3,154 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2026-01-17T10:00:28-08:00</updated>
+    <updated>2026-03-15T10:00:00-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
     <id>https://kacboy.com/blog</id>
 
     <entry>
-        <title>Fantech Mini Controller Hands-On: Small but Mighty </title>
+        <title>How to Re-Download P.T. on PS4 in 2026</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/how-to-re-download-pt-on-ps4-in-2026.html"/>
+        <id>https://kacboy.com/blog/how-to-re-download-pt-on-ps4-in-2026.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/46/2026-03-15-Installing-PT-2.jpg" medium="image" />
+            <category term="guides"/>
+
+        <updated>2026-03-15T10:00:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/46/2026-03-15-Installing-PT-2.jpg" alt="" />
+                    If you’ve been wondering whether it’s still possible to download P.T. on&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/46/2026-03-15-Installing-PT-2.jpg" class="type:primaryImage" alt="" /></p>
+                <p>If you’ve been wondering whether it’s still possible to download <strong>P.T.</strong> on a <strong>PlayStation 4 in 2026</strong>, the answer is yes — but only under one very important condition:</p>
+<p><strong>You must have added P.T. to your PlayStation Network account before April 29, 2015.</strong></p>
+<p>If you never claimed it back then, this method will not work for you. There are fan remakes and emulation options out there, but this guide is strictly for <strong>legitimate owners</strong> who already have a valid license tied to their PSN account.</p>
+<p>If that sounds like you, here’s how to get <strong>P.T.</strong> back on your PS4.</p>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/V_8PnsM0_ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+<h2>What You’ll Need</h2>
+<p>Before getting started, make sure you have:</p>
+<ul>
+<li>
+<p>A <strong>PS4</strong></p>
+</li>
+<li>
+<p>A <strong>Windows PC</strong></p>
+</li>
+<li>
+<p>Your <strong>PS4 and PC connected to the same network</strong></p>
+</li>
+<li>
+<p>A PSN account that already owns <strong>P.T.</strong></p>
+</li>
+</ul>
+<p>The tool used in this process relies on <strong>open-source Squid Cache proxy software</strong>. In theory, this could also work on Linux or Mac, but the version used here includes simple one-click scripts intended for Windows.</p>
+<h2>Before You Begin</h2>
+<p>One thing that is very important: your <strong>PS4 and PC should be on the same network and ideally using the same type of connection</strong>.</p>
+<p>For example, if your PS4 is on Wi-Fi and your PC is on Ethernet, the setup may fail. To avoid issues, it’s easiest to make sure both devices are connected the same way on the same local network.</p>
+<h2>Step 1: Download and Set Up the Proxy Tool</h2>
+<p>First, download the proxy package from here:</p>
+<p class="msg msg--highlight "><a href="https://app.bramantya.org/redownload/">https://app.bramantya.org/redownload/</a></p>
+<p>Once it’s downloaded:</p>
+<ol>
+<li>
+<p>Extract the files</p>
+</li>
+<li>
+<p>Copy the extracted folder to the <strong>root of your C: drive</strong></p>
+</li>
+<li>
+<p>Open the folder</p>
+</li>
+<li>
+<p>Run <code>all.bat</code> inside the <strong>squid&gt;sbin</strong> folder</p>
+</li>
+</ol>
+<p>This starts the Squid proxy software on your PC, which is the key to allowing the PS4 to access the archived download properly.</p>
+<h2>Step 2: Find Your PC’s Local IP Address</h2>
+<p>Next, open <strong>Command Prompt</strong> on your PC and run:</p>
+<pre><code class="language-cmd">ipconfig
+</code></pre>
+<p>Look for your <strong>IPv4 address, it will most likely be along the lines of 192.168.xx.xx</strong>. You’ll need this in the next step when configuring your PS4’s network settings.</p>
+<h2>Step 3: Configure the PS4 Network Settings</h2>
+<p>Now switch over to your PS4 and go through the network setup as normal.</p>
+<p>When you reach the proxy server step:</p>
+<ul>
+<li>
+<p>Set the <strong>Proxy Server</strong> to the IPv4 address you found using <code>ipconfig</code></p>
+</li>
+<li>
+<p>Set the <strong>Port</strong> to <code>808</code></p>
+</li>
+</ul>
+<p>Finish the setup and <strong>test the connection</strong>.</p>
+<p>If the connection test fails, double-check that:</p>
+<ul>
+<li>
+<p>Your PC and PS4 are on the same network</p>
+</li>
+<li>
+<p>Both devices are using the same connection type if possible</p>
+</li>
+<li>
+<p>The proxy software is still running on your PC</p>
+</li>
+</ul>
+<h2>Step 4: Download P.T. from Your Library</h2>
+<p>Once the connection test succeeds, head to your <strong>Game Library</strong> on the PS4.</p>
+<p>If your PSN account has a valid <strong>P.T.</strong> license attached to it, you should be able to re-download it from your library.</p>
+<p>At this point, the game should download as expected.</p>
+<h2>Step 5: Shut Down and Remove the Proxy Software</h2>
+<p>After the download is complete, return to your PC and stop the proxy service.</p>
+<p>Open Command Prompt and run:</p>
+<pre><code class="language-cmd">net stop squid
+</code></pre>
+<p>This may take a few minutes.</p>
+<p>After that, delete the service with:</p>
+<pre><code class="language-cmd">sc delete squid
+</code></pre>
+<p>Once that’s done, you can move the downloaded proxy files to the Recycle Bin if you no longer need them.</p>
+<h2>Final Test</h2>
+<p>With everything finished, launch <strong>P.T.</strong> on your PS4 to make sure it boots properly.</p>
+<p>If all went well, the demo should run normally.</p>
+<h2>Important Notes</h2>
+<p>A few quick reminders:</p>
+<ul>
+<li>
+<p>This only works for people who <strong>already own the P.T. license</strong></p>
+</li>
+<li>
+<p>If you never added it to your PSN account before <strong>April 29, 2015</strong>, this guide will not unlock access</p>
+</li>
+<li>
+<p>This method is for <strong>PS4 only</strong></p>
+</li>
+<li>
+<p>There is <strong>no way to download P.T. on PS5</strong> using this method</p>
+</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Even in 2026, it’s still possible to legitimately re-download <strong>P.T.</strong> on a PS4 — as long as your PlayStation Network account already owns it. The process takes a little setup with a proxy server, but once everything is configured correctly, you can restore one of the most iconic playable demos ever released.</p>
+<p>For longtime fans of horror games, it’s a great way to revisit a piece of gaming history.</p>
+<hr style="color: #a5a7b7; font-family: sans-serif; font-size: 18px; font-weight: 400; letter-spacing: normal; outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;">
+<ul>
+<li>
+<p><a href="https://app.bramantya.org/redownload/">https://app.bramantya.org/redownload/</a></p>
+</li>
+<li>PS4 <a href="https://amzn.to/4sMuJl4">https://amzn.to/4sMuJl4</a></li>
+<li><span style="font-weight: 400;">DualShock 4 </span><a href="https://amzn.to/4iIjN3I"><span style="font-weight: 400;">https://amzn.to/4iIjN3I</span></a><span style="font-weight: 400;"> </span></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Fantech Mini Controller Hands-On | Best in Class?</title>
         <author>
             <name>Marcus</name>
         </author>
@@ -911,128 +1051,6 @@
 <p>While this isn’t the perfect solution (Sony should ideally provide an official HDR toggle for Remote Play), this workaround provides an easy and effective fix. If you’ve been struggling with HDR issues on the PlayStation Portal, try enabling Invert Colors through the Accessibility menu and enjoy a better viewing experience.</p>
 <hr>
 <figure class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded"><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">Previous Portal HDR Video </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><span class="yt-core-attributed-string--highlight-text-decorator" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" aria-label="YouTube Channel Link: PlayStation Portal | 4.0.1 HDR Issues" href="https://www.youtube.com/watch?v=z21i63eJUro" target="" force-new-state="true" tabindex="0">  <span class="yt-core-attributed-string--inline-block-mod"><img  src="https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png" alt="" data-is-external-image="true"></figure></span> • PlayStation Portal | 4.0.1 HDR Issues  </a></span></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>HDR Test Patterns </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3ZtRjRpeFMyenM4bUlOb2VEVzJ0OFpOUzNaZ3xBQ3Jtc0trNFdaUjl4Q29UUFRNQU8wMHZVRV9kdjMyTGhLeTJVNjV6akU2TTBoTkUzWFE4cloyNXVQUHA3WnJXdHJRLVFYeUYxdUFmYk1VTEZ3eWw0VUpRSVFpMktyM21RSHdrRVdoTWlnNGIwNnBpV2JoRlZrbw&amp;q=https%3A%2F%2Fwww.avsforum.com%2Fthreads%2Fhdr10-test-patterns-set.2943380%2F&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://www.avsforum.com/threads/hdr1...</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Original Reddit Solution </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><span class="yt-core-attributed-string--highlight-text-decorator" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" aria-label="Reddit Channel Link: hdr_fix" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbGhTYjR1bTI2dWU2dHdtUlRkNmd1aVYzV0YzQXxBQ3Jtc0tsLXV3OUMyWF9uSExSeGNLSkxodnRvZ3lneEYtMV91NlRRdmt6M1lSd0NxX291UzhTQkR3SDMzVHkxM2VxWUd5aUU3QWJwVXZuVnJ5cXdjVzMyWFA1ZUlLdEY5OEItY2NXb1ZZTDJmVnFhTFQ0TTgycw&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FPlaystationPortal%2Fcomments%2F1flv6r4%2Fhdr_fix%2F&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0"> <span class="yt-core-attributed-string--inline-block-mod"><figure class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded"><img loading="lazy"  src="https://www.gstatic.com/youtube/img/watch/social_media/reddit_1x.png" alt="" data-is-external-image="true"></figure></span> / hdr_fix  </a></span></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbi1KZUV2dng5U1RjODgxakl1bkdOb3ZDRFE1d3xBQ3Jtc0ttS1VJcmZoSkowbUMwQnRBakF4X1RpZk1ua1lmVFdxeFNSWDNIVGduZFJXLWpOQzlhcjROQUxzcUhzZ2RCd3pyUk5idWJKQXc5TDROaHNKclpIcXNXbFQzXzRtWTh2d2U0cjZ2eUpZWnB3QUNEdV8tRQ&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>PS5 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbDM5Z1VKQldwdGFISl9RUllubHZxdzE0YlNLUXxBQ3Jtc0tsZGxPbFZfSU9aeDNYeFZCV01RWXVBX0Zlanp4TkNtRmd6aHMyNEhjRGtoMnpSc0xWWC1HVnZkZU1XdFJsS1NfVnZVcEZ1YThuUU1GZjgxU2JGbjgxWnJxU2xwYk5rQTV3dGNDVWdsY0gwM2JlT1lNSQ&amp;q=https%3A%2F%2Famzn.to%2F3KB9MWg&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3KB9MWg</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Mafia Trilogy </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3BESUVOT1A2Y0lHam5aeExpNzlMQWd1S3MzUXxBQ3Jtc0tuMGg5SjMtVGgtY1hjcHB4N1NFYlY3T2NuQXZQcGZpRk8xM1BjSzRKSGx2WVZWdnk2a3hNVGkzOUh0MWhBYjlyS3k2M3BvYzBCaVl3VVFHR3JrdE1qX2F4b21IejE0ZnhEWW54aDNzVEROSHFneElTQQ&amp;q=https%3A%2F%2Famzn.to%2F4eK9Jow&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eK9Jow</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Ghost of Tsushima </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbHlWdV8wWkI3UEVZTG1XbFNObGZraHlnNWJEQXxBQ3Jtc0trd05zVE1HaFBPdUJHdVpFMDNFalB1ZWV0Ymo1cXYybzBEWkd6RnB3OFJGYjBKRzctSU1ZUUhPY2tjZFhoelNxLTFFSjA2RFBTcTVjMnZZVWsweWlGeURiRm1SZmI5NlhxdmNTRDV0dkVqT29oRUVIZw&amp;q=https%3A%2F%2Famzn.to%2F4eEt7Dc&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eEt7Dc</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Spider-Man 2 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa1YzOTFFLXFqR0JZX196MTBsbjU5YVlLZEQxZ3xBQ3Jtc0ttVFAxejgtbXVOZ01rZGZOV2lJOHl3R3daWklzcENJdGRyc1BWWWlYQ01uU1R4LUdEQUVWcHJETWc3LVJiNE9JdTRLQ001V1BkdTgwYnR2dThJdXIxMk5ZbEpkWnB4bzhRUXJ4RzZLZVQ3NERwR3J1RQ&amp;q=https%3A%2F%2Famzn.to%2F4eASANK&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eASANK</a></span></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to Watch 3D Movies on PSVR2 Using Free Software</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/how-to-watch-3d-movies-on-psvr2-using-free-software.html"/>
-        <id>https://kacboy.com/blog/how-to-watch-3d-movies-on-psvr2-using-free-software.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/26/2024-10-06-PSVR2-Movies.jpg" medium="image" />
-            <category term="guides"/>
-
-        <updated>2024-10-06T10:00:00-07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/26/2024-10-06-PSVR2-Movies.jpg" alt="" />
-                    Sony’s PlayStation VR2 (PSVR2) is an amazing headset, but unfortunately, it lacks&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/26/2024-10-06-PSVR2-Movies.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Sony’s PlayStation VR2 (PSVR2) is an amazing headset, but unfortunately, it lacks native support for 3D Blu-ray playback on the PlayStation 5. Luckily, with the new PSVR2 PC adapter, you can use entirely free software to enjoy your 3D movies in a massive virtual cinema. In this guide, I’ll show you step-by-step how to do this without re-encoding your movie files, saving you time and hassle.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/KY38deZrl7s?t=240s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h2>What You’ll Need</h2>
-<ul>
-<li>
-<p><strong>PSVR2 headset</strong> and <strong>PC adapter</strong> (set up and configured for SteamVR)</p>
-</li>
-<li>
-<p><strong>A 3D Blu-ray movie</strong> (example: Top Gun 3D)</p>
-</li>
-<li>
-<p><strong>A Blu-ray drive for your PC</strong></p>
-</li>
-<li>
-<p><strong>MakeMKV</strong> (to rip the Blu-ray to an MKV file)</p>
-</li>
-<li>
-<p><strong>BD3D2MK3D</strong> (to convert the MKV file to a side-by-side 3D format)</p>
-</li>
-<li>
-<p><strong>AVISynth+</strong> (a required supplementary tool for BD3D2MK3D)</p>
-</li>
-<li>
-<p><strong>Bigscreen Beta</strong> (a free VR app on Steam that allows you to watch movies in a virtual theater)</p>
-</li>
-<li>
-<p><strong>VLC Media Player</strong> (to play the 3D movie)</p>
-</li>
-</ul>
-<h2>Step 1: Rip the 3D Blu-ray with MakeMKV</h2>
-<p>MakeMKV is a free tool that lets you create digital copies of your physical Blu-ray discs. Here’s how:</p>
-<ol>
-<li>
-<p>Insert your 3D Blu-ray disc into your Blu-ray drive.</p>
-</li>
-<li>
-<p>Open <strong>MakeMKV</strong> and select the Blu-ray drive.</p>
-</li>
-<li>
-<p>In the options, <strong>make sure to check the 3D video track</strong>, as it may not be selected by default.</p>
-</li>
-<li>
-<p>Start the ripping process. <strong>This will take some time</strong> (around an hour or more, depending on your PC and Blu-ray drive).</p>
-</li>
-</ol>
-<h2>Step 2: Convert the MKV File to Side-by-Side 3D Format</h2>
-<p>Once you have your MKV file, you need to convert it into a side-by-side format, which is required for VR playback.</p>
-<ol>
-<li>
-<p>Open <strong>BD3D2MK3D</strong> and drag your newly created MKV file into the program.</p>
-</li>
-<li>
-<p>Remove any unnecessary audio and subtitle tracks to save space.</p>
-</li>
-<li>
-<p>Uncheck the “half-quality” option if you want <strong>full-quality 3D video</strong> (note: this increases processing time).</p>
-</li>
-<li>
-<p>Start the conversion. <strong>This can take about an hour</strong>, even on a high-performance computer.</p>
-</li>
-</ol>
-<p>💡 <em>You’ll also need AVISynth+ installed for this process to work.</em></p>
-<h2>Step 3: Set Up Your Virtual Cinema in Bigscreen Beta</h2>
-<p>With your 3D movie ready, it’s time to experience it in VR.</p>
-<ol>
-<li>
-<p>Open <strong>SteamVR</strong> and make sure your PSVR2 is properly connected.</p>
-</li>
-<li>
-<p>Launch <strong>Bigscreen Beta</strong> from your Steam library.</p>
-</li>
-<li>
-<p>Choose a theater environment (I prefer the fancy home theater setup, but you can pick any you like).</p>
-</li>
-</ol>
-<h2>Step 4: Play Your 3D Movie in VR</h2>
-<p>Now, let’s get the movie playing in full 3D:</p>
-<ol>
-<li>
-<p><strong>Open VLC Media Player</strong> and load your converted side-by-side 3D movie.</p>
-</li>
-<li>
-<p>Go full-screen in VLC so it fills the Bigscreen virtual theater.</p>
-</li>
-<li>
-<p>In Bigscreen Beta, press <strong>R3</strong> on your controller to open the settings.</p>
-</li>
-<li>
-<p>Select the <strong>3D mode option</strong> and set it to <strong>side-by-side (SBS)</strong>.</p>
-</li>
-<li>
-<p>Your movie should now display correctly in stereoscopic 3D!</p>
-</li>
-</ol>
-<h2>Final Thoughts</h2>
-<p>While this process may seem a bit complex, it’s currently the best free method to watch 3D Blu-ray movies on the PSVR2. Thanks to MakeMKV, BD3D2MK3D, and Bigscreen Beta, you can enjoy your 3D content in a large virtual cinema <strong>without any paid software</strong>.</p>
-<p>If Sony ever enables native 3D Blu-ray support on PS5, this method won’t be necessary—but for now, this is the best solution available.</p>
-<hr>
-<p><span style="font-weight: 400;">MakeMKV</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbGZVVVFabXZtRVY4TVg3dEpjQkdTWmlJYVVqQXxBQ3Jtc0tuRm44MkhkNlhtQWdGS2k3NnFyWkhTYlJQV0dqZXNBZUw2S29TcU5hMHNjQW1YN01iUnVMcjdaZk9XMXhUaDJsS19fV0ljb2N2cnhfQ1BxMkJTWkJNaWdDTUFkMEZUWS1Sc2lPRHBQUjBlaThxdDRsYw&amp;q=https%3A%2F%2Fwww.makemkv.com%2F&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> </span></a><a href="https://www.makemkv.com/"><span style="font-weight: 400;">https://www.makemkv.com/</span><span style="font-weight: 400;"><br></span></a><span style="font-weight: 400;"> Bigscreen</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbFlfVDNfUXBMbUxtU1ZleXRIbTFuLUV6YlZwZ3xBQ3Jtc0ttSDd4cThlSzdNRUNrSFdsQXVOOW92eFN0U2NjSjNkQ0h1SjBieTgxcUQ5d2NEaHROdTFkcDZad2tEVklHYUxYeGNMOXNKMjdfX2dlRGd5RTlGTkktVFBKQ3FNMnNQVzBfMWNrZjlsbVEwcTRzaGFXbw&amp;q=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F457550%2FBigscreen_Beta%2F&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> </span></a><a href="https://store.steampowered.com/app/45%E2%80%A6"><span style="font-weight: 400;">https://store.steampowered.com/app/45…</span><span style="font-weight: 400;"><br></span></a><span style="font-weight: 400;"> BD3D2MK3D</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbUZMTExzNTFHYVdoMDZqbHNGY0hZS2JodEJSUXxBQ3Jtc0trS0JLN1llcEU2Mno2ODRtd0FxMFBycTFJVHJQc0QyOXpib2gtcDE4TmNGM1NDUFBoQXRVYWJ5MEpIQVBuNVFtNFI1QjhDOHYySkNScVJYbWtOSzk2SXBoblJpLUZmUjZOb1EzcTRyRkVFeW1NVTVSNA&amp;q=http%3A%2F%2Fforum.doom9.org%2Fshowthread.php%3Ft%3D170828&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> http://forum.doom9.org/showthread.php...</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">VLC</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbm5XNHRDUlVkWHE0VU8wYjVNVk1DMEhYRzNod3xBQ3Jtc0ttYmlsZnN0V1BHSUM0NS1JMER3Z25kRHJpRVZXT1diYjNaa2l5emFvdDFFeld4MWhqbS1kb0RhMktXVHd3cU42TnlORk9XR2ZYekpRRGhGLTFma3BEWXFxbXZ2NWdYRjhpeG5iOGNsU0RwMmVyRFVZUQ&amp;q=https%3A%2F%2Fwww.videolan.org%2F&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> https://www.videolan.org/</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">4XVR</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbVhicVEwdFFITTNZUzQxcFV6dUtBZ0JQYjNLUXxBQ3Jtc0treHB3VzBORnFlS2JoQ1NOZUNRSEZleURFT25QT1FTdTlaYVkwN0I4ZzNndThJd1FIZHI4dnpMYUt1b1JZVl9GeEtLX3JXa0pxYkFhb3VPYWx6Z2JOY20zaHE3QklVZ1NRQTdWZXhKejR1SVpjbWVGZw&amp;q=https%3A%2F%2Fm.4xvr.net%2F&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> https://m.4xvr.net/</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">PS VR2</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbkJ4NHREa3ZodGJSdmt0ck4tMFBkbGQ5cVFyd3xBQ3Jtc0ttTFNyOVBQQmUtaTJZTmhMaVZXWkNlWlBoZk82QWNiZ0Jjc2kwa1RqNW1oc0VnYV9fQ0owSURfTEZWclZpQ2ZGVnVFTmlWUEVuMWR1UFRLMFhOQTBrWGU2WFZReGFQcWsxYjhEM0VLTUl2TFNjVFBIcw&amp;q=https%3A%2F%2Famzn.to%2F47TKn4F&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> https://amzn.to/47TKn4F</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">PS VR2 PC Adapter</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbEgwQ2o1Z3FfWlk1Sms1eWRwTWhaak9JVlFoUXxBQ3Jtc0tsaTFJY3BUWTZWY3lobS1vWnZKQmpvX2NQNGV3M3NnOUpyMnJEaDhlcXktSk9BZmdqbnJ2ZlUteU9UMFd0SkhZZXlVcHdJalU4WmRsSkFUMjE3WTdSS0NxczAzbWE5ZjFSOVMxMmU5UHdka0YtM2RWUQ&amp;q=https%3A%2F%2Famzn.to%2F3BxVq7B&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> https://amzn.to/3BxVq7B</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">Top Gun 3D</span><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa1p6VVp2cVhTTU9Fb09PYjdYMDFITUFxc2V4QXxBQ3Jtc0ttSk9qOWY4djIzbktGbG85ajZ4Y2VYMmJlTjQxMTJ1V1hiOEE0SGRSV3VwQU9CeUtvdnoxSE9rb2VTYU1XYUZHMzk2ZjFSRE9YNUMzcGxGY09NRFl3TEFjWTlwXzIxSnl3VUxZY2hYVkdDaDNrZFJ4aw&amp;q=https%3A%2F%2Famzn.to%2F4h3HylY&amp;v=KY38deZrl7s"><span style="font-weight: 400;"> https://amzn.to/4h3HylY</span></a></p>
             ]]>
         </content>
     </entry>
