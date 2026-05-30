@@ -3,7 +3,7 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2026-05-30T10:43:21-07:00</updated>
+    <updated>2026-05-30T14:14:03-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
@@ -16,19 +16,19 @@
         </author>
         <link href="https://kacboy.com/blog/how-to-use-a-playstation-move-controller-as-a-wii-remote-in-dolphin-emulator.html"/>
         <id>https://kacboy.com/blog/how-to-use-a-playstation-move-controller-as-a-wii-remote-in-dolphin-emulator.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" medium="image" />
+        <media:content url="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii-3.jpg" medium="image" />
             <category term="guides"/>
 
         <updated>2026-05-30T10:30:00-07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" alt="" />
+                        <img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii-3.jpg" alt="" />
                     The PlayStation Move controller is a motion controller, so naturally, it makes&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii-3.jpg" class="type:primaryImage" alt="" /></p>
                 <p>The PlayStation Move controller is a motion controller, so naturally, it makes sense to try using it as a Wii Remote in Dolphin Emulator.</p>
 <p>After testing a few overly complicated options, the best solution I found is <a href="https://github.com/Swordmaster3214/PSMove-DSU"><strong>PSMove-DSU</strong> by <strong>Swordmaster3214</strong></a>. It lets the PS Move controller connect to Dolphin through DSU input, making it possible to use motion controls in Wii games without needing VR software or a complicated setup.</p>
 <p>This guide will walk through downloading the required tools, pairing the controller, configuring Dolphin, and testing it in-game.</p>
