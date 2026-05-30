@@ -3,12 +3,140 @@
     <title>@kacboy</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2026-03-15T10:00:00-07:00</updated>
+    <updated>2026-05-30T10:43:21-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
     <id>https://kacboy.com/blog</id>
 
+    <entry>
+        <title>How to Use a PlayStation Move Controller as a Wii Remote in Dolphin Emulator</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/how-to-use-a-playstation-move-controller-as-a-wii-remote-in-dolphin-emulator.html"/>
+        <id>https://kacboy.com/blog/how-to-use-a-playstation-move-controller-as-a-wii-remote-in-dolphin-emulator.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" medium="image" />
+            <category term="guides"/>
+
+        <updated>2026-05-30T10:30:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" alt="" />
+                    The PlayStation Move controller is a motion controller, so naturally, it makes&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/47/2026-05-30-PS-Move-Wii.jpg" class="type:primaryImage" alt="" /></p>
+                <p>The PlayStation Move controller is a motion controller, so naturally, it makes sense to try using it as a Wii Remote in Dolphin Emulator.</p>
+<p>After testing a few overly complicated options, the best solution I found is <a href="https://github.com/Swordmaster3214/PSMove-DSU"><strong>PSMove-DSU</strong> by <strong>Swordmaster3214</strong></a>. It lets the PS Move controller connect to Dolphin through DSU input, making it possible to use motion controls in Wii games without needing VR software or a complicated setup.</p>
+<p>This guide will walk through downloading the required tools, pairing the controller, configuring Dolphin, and testing it in-game.</p>
+<h2>What You Need</h2>
+<p>Before getting started, you will need:</p>
+<ul>
+<li>
+<p>A PlayStation Move controller</p>
+</li>
+<li>
+<p>A Bluetooth adapter or built-in Bluetooth on your PC</p>
+</li>
+<li>
+<p>PSMove-DSU: <a href="https://github.com/Swordmaster3214/PSMove-DSU">https://github.com/Swordmaster3214/PSMove-DSU</a></p>
+</li>
+<li>
+<p>PS Move API: <a href="https://github.com/thp/psmoveapi">https://github.com/thp/psmoveapi</a></p>
+</li>
+<li>
+<p>Dolphin Emulator: <a href="https://dolphin-emu.org/">https://dolphin-emu.org/</a></p>
+</li>
+<li>
+<p>A Wii game to test with, such as Wii Sports</p>
+</li>
+</ul>
+<p>Make sure you download the <strong>x64 version</strong> of PS Move API.</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/ZHSz8WIMBrs" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2>Step 1: Download and Extract the Files</h2>
+<p>First, download both <strong>PSMove-DSU</strong> and <strong>PS Move API</strong>.</p>
+<p>Once downloaded, extract the files somewhere convenient. The exact folder does not really matter, but the important thing is that the required files are placed together in the same folder:</p>
+<ul>
+<li>
+<p><code>psmoveapi_tracker.lib</code></p>
+</li>
+<li>
+<p><code>test_tracker.exe</code></p>
+</li>
+<li>
+<p><code>dsu_server_psmove_win64.exe</code></p>
+</li>
+<li>
+<p><code>psmove.exe</code></p>
+</li>
+<li>
+<p><code>psmoveapi.dll</code></p>
+</li>
+<li>
+<p><code>psmoveapi.lib</code></p>
+</li>
+<li>
+<p><code>psmoveapi_tracker.dll</code></p>
+</li>
+</ul>
+<p>This allows the tools to communicate properly.</p>
+<h2>Step 2: Pair the PlayStation Move Controller</h2>
+<p class="isSelectedEnd">Next, you need to pair the PS Move controller with your PC over Bluetooth.</p>
+<p class="isSelectedEnd">Open the folder where you placed the PS Move API files. The easiest way to run the pairing command is to copy the folder path, then open <strong>Command Prompt as Administrator</strong>.</p>
+<p class="isSelectedEnd">In Command Prompt, type <code dir="ltr">cd</code>, add a space, then paste the folder path in quotes. For example:</p>
+<p><code dir="ltr">cd "C:\Path\To\Your\PSMove-Folder"</code></p>
+<p class="isSelectedEnd">Once Command Prompt is inside the correct folder, run the pairing command. You can either use PS Move API itself or the DSU executable for this step, the command may be one of the following:</p>
+<ul>
+<li><code dir="ltr">psmoveapi.exe pair</code></li>
+<li><code dir="ltr">dsu_server_psmove_win64.exe --pair</code></li>
+</ul>
+<p class="isSelectedEnd">Follow the instructions shown in the Command Prompt window. Make sure Bluetooth is turned on before pairing, and connect the PS Move controller with a USB cable when prompted. One thing to watch out for: make sure Bluetooth is enabled before trying to pair the controller.</p>
+<p>Once the controller is paired successfully, you can unplug it from USB and continue to the next step.</p>
+<h2>Step 3: Start PSMove-DSU</h2>
+<p>After the controller is paired, you need to start the DSU server so Dolphin can receive input from the PS Move controller. Stay in the same <strong>Administrator Command Prompt</strong> window from the previous step. You should still be inside the folder containing the PS Move files. To run the main program just run the DSU executable without any additional arguments:</p>
+<p><code dir="ltr">dsu_server_psmove_win64.exe</code></p>
+<p>If everything is working correctly, a command prompt window should stay open and show activity from the DSU server. This means the PS Move controller is being detected and the DSU server is running.</p>
+<p>Leave this window open while using Dolphin. If you close it, Dolphin will no longer receive input from the PS Move controller.</p>
+<p>At this point, your PS Move controller should be ready to connect to Dolphin through DSU input.</p>
+<h2>Step 4: Enable DSU Input in Dolphin</h2>
+<p>Now open <strong>Dolphin Emulator</strong>.</p>
+<p>There are plenty of full Dolphin setup guides out there, so I will not go through the entire emulator setup here. For this guide, I used <strong>Wii Sports</strong> as my test game.</p>
+<ol>
+<li>In Dolphin, open the controller settings.</li>
+<li>Go to the <strong>Common</strong> section and open <strong>Alternate Input Sources</strong>.</li>
+<li>From there, enable <strong>DSU Client</strong></li>
+</ol>
+<p>The default settings should work, so you can save and close that window.</p>
+<h2>Step 5: Configure the Emulated Wii Remote</h2>
+<p>Next, go to the Wii Remote settings in Dolphin.</p>
+<ol>
+<li>Set the controller type to: <strong>Emulated Wii Remote</strong></li>
+<li>Then choose the DSU client as the input device.</li>
+<li>Once selected, check the motion input tab. This is where the PS Move’s motion data should come through.</li>
+<li>You will probably want to set a button or keyboard key to recenter the pointer. I just used a keyboard key for this.</li>
+</ol>
+<p>This is important because the pointer may drift or start slightly off-center, and having a quick recenter button makes the whole setup much easier to use.</p>
+<h2>Step 6: Map the Buttons</h2>
+<p>Now you can map the PS Move buttons to Wii Remote inputs in the General and Options tab.</p>
+<p>I used PS3-era PS Move controllers, and unfortunately Dolphin would not let me map every button. The symbol buttons and trigger worked, but the main Move button, Share, and Options did not work properly for me. <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">This may be different with PS4-era Move controllers, but I am not sure. </span></p>
+<p>For now, map whatever buttons Dolphin can detect. For something simple like Wii Sports, you may not need many buttons anyway.</p>
+<h2>Step 7: Test It in a Game</h2>
+<p>Once your buttons and motion controls are mapped, launch a game.</p>
+<p>The setup is not perfect out of the box, and I am still not sure about the best way to fine-tune or calibrate everything. You may need to experiment with sensitivity, pointer behavior, and recentering.</p>
+<p>That said, with a recenter button mapped, I was able to navigate well enough and actually play the game. The swing strength required in Wii Sports also felt a little strong, but the important thing is that it worked.</p>
+<h2>Final Thoughts</h2>
+<p>This is the simplest solution I have found for using a PlayStation Move controller with Dolphin Emulator.</p>
+<p>It still has some rough edges. Button mapping is limited, calibration may need tweaking, and two-player support does not seem ready yet, at least on Windows. It might also be possible to use it as a Nunchuk-style controller, but I am not familiar enough with the full extent of PS Move API support to say for sure.</p>
+<p>But the fact that this works at all is awesome.</p>
+<p>If you have a PS Move controller lying around, this is absolutely worth trying.</p>
+<hr>
+<p><span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto"><span class="ytAttributedStringLinkInheritColor" dir="auto">PS Move Controllers </span><span class="ytAttributedStringLinkInheritColor" dir="auto"><a href="https://amzn.to/4u0NYr7" target="_blank" rel="nofollow noopener noreferrer">https://amzn.to/4u0NYr7</a><br></span></span>PSMove-DSU <a href="https://github.com/Swordmaster3214/PSMove-DSU">https://github.com/Swordmaster3214/PSMove-DSU</a><br>PS Move API <a href="https://github.com/thp/psmoveapi">https://github.com/thp/psmoveapi</a><br>Dolphin Emulator <a href="https://dolphin-emu.org/">https://dolphin-emu.org/</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to Re-Download P.T. on PS4 in 2026</title>
         <author>
@@ -997,60 +1125,6 @@
 <p>Yes, the controller works well with many emulators, making it an excellent choice for retro gaming on various devices.</p>
 <hr>
 <p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">8Bitdo Micro </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://amzn.to/4jcZYSm" target="_blank" rel="nofollow noopener noreferrer">https://amzn.to/4jcZYSm</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>PXPlay </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://streamingdv.com/shop-list-ns" target="_blank" rel="nofollow noopener noreferrer">https://streamingdv.com/shop-list-ns</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Scott Pilgrim </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://amzn.to/40TBiqT" target="_blank" rel="nofollow noopener noreferrer">https://amzn.to/40TBiqT</a></span></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to Fix HDR Issues on PlayStation Portal</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/how-to-fix-hdr-issues-on-playstation-portal.html"/>
-        <id>https://kacboy.com/blog/how-to-fix-hdr-issues-on-playstation-portal.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/31/2024-10-17-Portal-HDR-Toggle.jpg" medium="image" />
-            <category term="guides"/>
-
-        <updated>2024-10-17T10:00:00-07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/31/2024-10-17-Portal-HDR-Toggle.jpg" alt="" />
-                    For PlayStation Portal users, the HDR streaming issue has been a long-standing&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/31/2024-10-17-Portal-HDR-Toggle.jpg" class="type:primaryImage" alt="" /></p>
-                <p data-pm-slice="1 1 []">For PlayStation Portal users, the HDR streaming issue has been a long-standing frustration. Despite the Portal's LCD screen lacking HDR support, the PS5 continues to stream an HDR signal, leading to blown-out visuals. While one would expect an easy fix from Sony, the issue persists. Fortunately, thanks to a clever workaround discovered by a Reddit user, there is now a simple solution to toggle HDR effectively.</p>
-<h2>Understanding the HDR Issue</h2>
-<p>The PlayStation Portal, with its LCD screen, does not support HDR. However, the PS5’s default settings may still transmit an HDR video signal, which results in an overexposed and washed-out image. Many users have tried turning off HDR settings on their PS5s, but Sony has restricted access to screen and display settings when using Remote Play, making the fix more challenging. Some users resort to unplugging their PS5’s HDMI cable as a workaround, which is highly inconvenient.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/8P-7_CwNNw4?t=321s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h2>Testing the Issue</h2>
-<p>Using HDR test footage, we have confirmed that the PlayStation Portal struggles with brightness levels above 350 nits, leading to significant loss of detail. Games like <em>Death Stranding</em>, <em>Mafia 2</em>, <em>Ghost of Tsushima</em>, and <em>Spider-Man 2</em> exhibit severe highlight loss, making the visuals almost unreadable in bright areas. Even when HDR is turned off, the conversion remains poor, failing to properly translate highlights into SDR levels.</p>
-<h2>The Quick Fix: Invert Colors Trick</h2>
-<p>A Reddit user named <em>dioro</em> discovered an effective method to disable HDR on the PlayStation Portal:</p>
-<h3>Steps to Disable HDR on PlayStation Portal</h3>
-<ol start="1" data-spread="false">
-<li>
-<p>Press the <strong>PlayStation button</strong> to open the Control Center.</p>
-</li>
-<li>
-<p>Press the <strong>Options button</strong> to open the Edit menu.</p>
-</li>
-<li>
-<p>Add the <strong>Accessibility menu</strong> to your Control Center.</p>
-</li>
-<li>
-<p>In the Accessibility menu, enable <strong>Invert Colors</strong>.</p>
-</li>
-</ol>
-<h3>Why This Works</h3>
-<p>On the PS5, enabling Invert Colors changes the screen’s color scheme, but on the PlayStation Portal, it effectively disables HDR. This trick successfully restores detail to bright areas, making visuals significantly clearer and preserving gameplay details that were previously washed out.</p>
-<h2>Comparing Before and After</h2>
-<p>Testing this fix on various games and HDR test footage confirms that inverting colors mimics the effect of fully disabling HDR. Details in bright skies, highlights in gameplay, and general visibility improve dramatically, making the PlayStation Portal experience much more enjoyable.</p>
-<h2>Conclusion</h2>
-<p>While this isn’t the perfect solution (Sony should ideally provide an official HDR toggle for Remote Play), this workaround provides an easy and effective fix. If you’ve been struggling with HDR issues on the PlayStation Portal, try enabling Invert Colors through the Accessibility menu and enjoy a better viewing experience.</p>
-<hr>
-<figure class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded"><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">Previous Portal HDR Video </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><span class="yt-core-attributed-string--highlight-text-decorator" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" aria-label="YouTube Channel Link: PlayStation Portal | 4.0.1 HDR Issues" href="https://www.youtube.com/watch?v=z21i63eJUro" target="" force-new-state="true" tabindex="0">  <span class="yt-core-attributed-string--inline-block-mod"><img  src="https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png" alt="" data-is-external-image="true"></figure></span> • PlayStation Portal | 4.0.1 HDR Issues  </a></span></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>HDR Test Patterns </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3ZtRjRpeFMyenM4bUlOb2VEVzJ0OFpOUzNaZ3xBQ3Jtc0trNFdaUjl4Q29UUFRNQU8wMHZVRV9kdjMyTGhLeTJVNjV6akU2TTBoTkUzWFE4cloyNXVQUHA3WnJXdHJRLVFYeUYxdUFmYk1VTEZ3eWw0VUpRSVFpMktyM21RSHdrRVdoTWlnNGIwNnBpV2JoRlZrbw&amp;q=https%3A%2F%2Fwww.avsforum.com%2Fthreads%2Fhdr10-test-patterns-set.2943380%2F&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://www.avsforum.com/threads/hdr1...</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Original Reddit Solution </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><span class="yt-core-attributed-string--highlight-text-decorator" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" aria-label="Reddit Channel Link: hdr_fix" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbGhTYjR1bTI2dWU2dHdtUlRkNmd1aVYzV0YzQXxBQ3Jtc0tsLXV3OUMyWF9uSExSeGNLSkxodnRvZ3lneEYtMV91NlRRdmt6M1lSd0NxX291UzhTQkR3SDMzVHkxM2VxWUd5aUU3QWJwVXZuVnJ5cXdjVzMyWFA1ZUlLdEY5OEItY2NXb1ZZTDJmVnFhTFQ0TTgycw&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FPlaystationPortal%2Fcomments%2F1flv6r4%2Fhdr_fix%2F&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0"> <span class="yt-core-attributed-string--inline-block-mod"><figure class="yt-core-image yt-core-attributed-string__image-element yt-core-attributed-string__image-element--image-alignment-vertical-center yt-core-image--content-mode-scale-to-fill yt-core-image--loaded"><img loading="lazy"  src="https://www.gstatic.com/youtube/img/watch/social_media/reddit_1x.png" alt="" data-is-external-image="true"></figure></span> / hdr_fix  </a></span></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbi1KZUV2dng5U1RjODgxakl1bkdOb3ZDRFE1d3xBQ3Jtc0ttS1VJcmZoSkowbUMwQnRBakF4X1RpZk1ua1lmVFdxeFNSWDNIVGduZFJXLWpOQzlhcjROQUxzcUhzZ2RCd3pyUk5idWJKQXc5TDROaHNKclpIcXNXbFQzXzRtWTh2d2U0cjZ2eUpZWnB3QUNEdV8tRQ&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>PS5 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbDM5Z1VKQldwdGFISl9RUllubHZxdzE0YlNLUXxBQ3Jtc0tsZGxPbFZfSU9aeDNYeFZCV01RWXVBX0Zlanp4TkNtRmd6aHMyNEhjRGtoMnpSc0xWWC1HVnZkZU1XdFJsS1NfVnZVcEZ1YThuUU1GZjgxU2JGbjgxWnJxU2xwYk5rQTV3dGNDVWdsY0gwM2JlT1lNSQ&amp;q=https%3A%2F%2Famzn.to%2F3KB9MWg&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3KB9MWg</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Mafia Trilogy </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3BESUVOT1A2Y0lHam5aeExpNzlMQWd1S3MzUXxBQ3Jtc0tuMGg5SjMtVGgtY1hjcHB4N1NFYlY3T2NuQXZQcGZpRk8xM1BjSzRKSGx2WVZWdnk2a3hNVGkzOUh0MWhBYjlyS3k2M3BvYzBCaVl3VVFHR3JrdE1qX2F4b21IejE0ZnhEWW54aDNzVEROSHFneElTQQ&amp;q=https%3A%2F%2Famzn.to%2F4eK9Jow&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eK9Jow</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Ghost of Tsushima </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbHlWdV8wWkI3UEVZTG1XbFNObGZraHlnNWJEQXxBQ3Jtc0trd05zVE1HaFBPdUJHdVpFMDNFalB1ZWV0Ymo1cXYybzBEWkd6RnB3OFJGYjBKRzctSU1ZUUhPY2tjZFhoelNxLTFFSjA2RFBTcTVjMnZZVWsweWlGeURiRm1SZmI5NlhxdmNTRDV0dkVqT29oRUVIZw&amp;q=https%3A%2F%2Famzn.to%2F4eEt7Dc&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eEt7Dc</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Spider-Man 2 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa1YzOTFFLXFqR0JZX196MTBsbjU5YVlLZEQxZ3xBQ3Jtc0ttVFAxejgtbXVOZ01rZGZOV2lJOHl3R3daWklzcENJdGRyc1BWWWlYQ01uU1R4LUdEQUVWcHJETWc3LVJiNE9JdTRLQ001V1BkdTgwYnR2dThJdXIxMk5ZbEpkWnB4bzhRUXJ4RzZLZVQ3NERwR3J1RQ&amp;q=https%3A%2F%2Famzn.to%2F4eASANK&amp;v=8P-7_CwNNw4" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4eASANK</a></span></span></p>
             ]]>
         </content>
     </entry>
