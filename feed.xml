@@ -3,12 +3,85 @@
     <title>@kacboy | RSS</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2026-09-15T13:24:17-07:00</updated>
+    <updated>2026-11-14T10:00:00-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
     <id>https://kacboy.com/blog</id>
 
+    <entry>
+        <title>UMD2MKV | PSP UMD Ripping Software</title>
+        <author>
+            <name>Marcus</name>
+        </author>
+        <link href="https://kacboy.com/blog/umd2mkv.html"/>
+        <id>https://kacboy.com/blog/umd2mkv.html</id>
+        <media:content url="https://kacboy.com/blog/media/posts/49/2026-11-14-PSP-Rip-UMDs.jpg" medium="image" />
+            <category term="guides"/>
+
+        <updated>2026-11-14T10:00:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kacboy.com/blog/media/posts/49/2026-11-14-PSP-Rip-UMDs.jpg" alt="" />
+                    If you have any UMD movies sitting around for the PSP and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://kacboy.com/blog/media/posts/49/2026-11-14-PSP-Rip-UMDs.jpg" class="type:primaryImage" alt="" /></p>
+                <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/h2vFotCY7As?si=V20bWAoYC796-sAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+<p>If you have any UMD movies sitting around for the PSP and want to rip them for modern playback, the process has historically required navigating a frustrating chain of legacy tools. Standard utilities cannot natively parse Sony's proprietary <code>.MPS</code> video streams, forcing users to manually mount ISOs, demux H.264 streams, decode Sony's ATRAC3+ audio, and reassemble everything manually.</p>
+<p><strong>UMD2MKV</strong> is a utility designed to automate this entire workflow. By reading ISO9660 filesystems directly, it extracts raw video streams, reconstructs the audio, and remuxes everything into a clean, standard Matroska (<code>.MKV</code>) container with zero generational video loss.</p>
+<figure class="post__image"><a href="https://github.com/kacboy/umd2mkv" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); border-bottom: 3px solid rgba(var(--yellow), 1);"><img  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://kacboy.com/blog/media/posts/49//preview130.png" alt="" width="1177" height="1009" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://kacboy.com/blog/media/posts/49//responsive/preview130-xs.webp 300w ,https://kacboy.com/blog/media/posts/49//responsive/preview130-sm.webp 480w ,https://kacboy.com/blog/media/posts/49//responsive/preview130-md.webp 768w ,https://kacboy.com/blog/media/posts/49//responsive/preview130-lg.webp 1024w"></figure></a><a href="https://github.com/kacboy/umd2mkv" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); border-bottom: 3px solid rgba(var(--yellow), 1);"><figure class="align-center"><img loading="lazy"  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://raw.githubusercontent.com/rubenpgrady/get-it-on-github/refs/heads/main/get-it-on-github.png" alt="Get it on GitHub" width="233" height="90" data-is-external-image="true"></figure></a></p>
+<h2>Key Features &amp; Conversion Modes</h2>
+<ul>
+<li><strong>Direct ISO Parsing:</strong> Reads the ISO9660 filesystem directly, bypassing the need to manually mount or unpack disc images.</li>
+<li><strong>Lossless Video Stream-Copy:</strong> Extracts the original H.264 video stream without re-encoding, preserving native visual quality.</li>
+<li><strong>Flexible Audio Handling:</strong> Decodes Sony ATRAC3+ audio into AAC-LC at 256 kbps per track (recommended for broad compatibility and smaller file sizes) or opts for a lossless FLAC conversion.</li>
+<li><strong>Intelligent Language &amp; Subtitle Mapping:</strong> Cross-references matching <code>.CLP</code> files under <code>UMD_VIDEO/CLIPINF/</code> to map Sony's private-stream descriptors directly to standard ISO-639 language tags and track titles. Original PSP PNG subtitle streams are reassembled and packaged as selectable PGS <code>.sup</code> tracks.</li>
+<li><strong>Multiple Operational Modes:</strong>
+<ul>
+<li><em>Movie Mode (Default):</em> Targets the largest <code>.MPS</code> file under <code>UMD_VIDEO/STREAM/</code> as the primary feature.</li>
+<li><em>TV Show Mode:</em> Scans all streams sequentially and uses FFprobe to retain files longer than 3 minutes, filtering out menus and transitions while outputting sequentially named episodes (<code>Title - E01.mkv</code>, <code>Title - E02.mkv</code>).</li>
+<li><em>All-Streams Mode:</em> Bypasses duration filtering to extract every <code>.MPS</code> file on the disc for complete archival dumps.</li>
+</ul>
+</li>
+</ul>
+<h2>System Requirements &amp; Setup</h2>
+<ul>
+<li><strong>FFmpeg Dependency:</strong> FFmpeg and FFprobe must be available on your system <code>PATH</code>. On Windows, you can simply place <code>ffmpeg.exe</code> and <code>ffprobe.exe</code> in the same directory as <code>UMD2MKV.exe</code>.</li>
+<li><strong>Platform Support:</strong> Native Win32 GUI (<code>UMD2MKV.exe</code>) and CLI for Windows; CLI builds for Linux (<code>amd64</code>/<code>arm64</code>) and macOS (Intel/Apple Silicon). Automated GitHub Actions handle cross-platform compilation on every release.</li>
+</ul>
+<h2>CLI Quick Reference</h2>
+<pre><code class="language-bash"># Standard conversion (H.264 stream-copy + AAC-LC 256k + PGS subtitles)
+umd2mkv -iso /path/to/movie.iso -out movie.mkv
+
+# Lossless FLAC audio output
+umd2mkv -iso /path/to/movie.iso -out movie.mkv -audio flac
+
+# Disable subtitle extraction
+umd2mkv -iso /path/to/movie.iso -out movie.mkv -subs=false
+
+# Inspect file structure and CLP metadata without converting
+umd2mkv -iso /path/to/movie.iso -inspect
+
+# Perform a deep stream-scan of audio and subtitle tracks
+umd2mkv -iso /path/to/movie.iso -scan-tracks</code></pre>
+<h2>Known Limitations</h2>
+<ul>
+<li><strong>GUI Platform Constraints:</strong> The graphical interface is exclusive to Windows; Linux and macOS deployments utilize the command-line interface.</li>
+<li><strong>Heuristic Stream Selection:</strong> Because UMD Video authoring lacks universal flags distinguishing main features from bonus content, Movie mode relies strictly on file size, which may occasionally target longer featurettes.</li>
+<li><strong>Authoring Variances:</strong> CLP mapping and subtitle extraction are designed around standard retail pressings; non-standard or promotional variants may occasionally leave specific track descriptors unlabelled.</li>
+</ul>
+<h2>Download &amp; Source Code</h2>
+<p>Source code and pre-compiled binaries are available on GitHub:</p>
+<ul>
+<li><strong><a href="#">Download UMD2MKV Releases</a></strong> <em>(Windows GUI &amp; Cross-Platform CLI binaries)</em></li>
+<li><strong><a href="#">View Source on GitHub</a></strong> <em>(Written in Go — contributions and forks welcome)</em></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to Watch 3D Movies on PS5 with PSVR2 </title>
         <author>
@@ -341,7 +414,7 @@
         <media:content url="https://kacboy.com/blog/media/posts/45/Fantech-Mini-Controller.jpg" medium="image" />
             <category term="reviews"/>
 
-        <updated>2026-01-17T10:00:00-08:00</updated>
+        <updated>2026-01-17T11:00:00-07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kacboy.com/blog/media/posts/45/Fantech-Mini-Controller.jpg" alt="" />
@@ -492,7 +565,7 @@
         <media:content url="https://kacboy.com/blog/media/posts/44/2025-11-05-BenQ-beCreatus-GR10-Dock.jpg" medium="image" />
             <category term="reviews"/>
 
-        <updated>2025-11-05T10:00:00-08:00</updated>
+        <updated>2025-11-05T11:00:00-07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kacboy.com/blog/media/posts/44/2025-11-05-BenQ-beCreatus-GR10-Dock.jpg" alt="" />
@@ -739,7 +812,7 @@
         <media:content url="https://kacboy.com/blog/media/posts/36/2025-03-03-UHD-PSP.jpg" medium="image" />
             <category term="guides"/>
 
-        <updated>2025-03-03T10:00:00-08:00</updated>
+        <updated>2025-03-03T11:00:00-07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kacboy.com/blog/media/posts/36/2025-03-03-UHD-PSP.jpg" alt="" />
@@ -839,7 +912,7 @@
         <media:content url="https://kacboy.com/blog/media/posts/28/maxresdefault.jpg" medium="image" />
             <category term="guides"/>
 
-        <updated>2025-02-09T10:00:00-08:00</updated>
+        <updated>2025-02-09T11:00:00-07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kacboy.com/blog/media/posts/28/maxresdefault.jpg" alt="" />
@@ -947,142 +1020,6 @@
 <h2>Final Thoughts</h2>
 <p>Sony seems intent on restricting browser access, and it's possible they may block messaging-based URL sharing in the future. Until then, these methods are your best bet for getting online through your PS5.</p>
 <p>Let me know if you find any new tricks or if these methods stop working! 🎮🌐</p>
-<hr>
-<p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://kacboy.com/ps5">kacboy.com/ps5</a> <br></span></span><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqblc2YV9yNUFpY2Z1T2VNYk5tOGpaQ0ozak04UXxBQ3Jtc0tuRFN2eGR2VDVWWU4zdVNXNGRjS2ViaE5QZ3AzbWpJRERNbFBDcG44YjNZbXBkSk92TE1WTTFGRUtuZHM5dmFOVzZQSzVoYjhVSFg1Nl8zNzh5NGZDMmVSY2dKaEJwdlN3UzlxcU9CbWY2RzkwTmhVYw&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br></span></span><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS5 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbW8xNDdNREVjNGlzZ09CMkhCTTdIeXNfSUhzd3xBQ3Jtc0ttejU2N2FwZkJLb0NidkkxWDJmWkN3dWI3bE53TUozWkR5QTNENzB1WFc0U0lTcXB4QTZHTlJNemRwZU52VHZwREZWZkhnUy1kNnN3LWpQcVNnNDNZMWY1Q2VDZk5JNThNY0RlNXgxa1Z5QmlBUkZkWQ&amp;q=https%3A%2F%2Famzn.to%2F3KB9MWg&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3KB9MWg</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>DualSense </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbnppelhfbklZVkZCYzRVd0hlLUNuNGw5dnJid3xBQ3Jtc0tsdE5WcHkzeS1BdHUxUmcxNUw1N3MtY2VXejVtTXp4ZmRFQXU1UDJYZFFzZnVNdDMwcXFzdXo5cFBKVGxPa3ZFQ2JxQmtLaW1pMDRLMWNQZUVFTkd4Qk9rQUh2VGlENEt0a3ozTUVobUNMVDU0eW5Tcw&amp;q=https%3A%2F%2Famzn.to%2F3RhL1lo&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3RhL1lo</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Watch Dogs 2 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbWpvT3lvTXZ3QWFYdHRNbHBVRmVNaG9ucENUZ3xBQ3Jtc0trV01LeUpFUzBDUl9fTU81NHpMY2szU1NsOWVWTGlQWm9ab0F6X2hSMjBZcGNNQVlFZG4yRnR0ek1CR3p2dHo1TloxT3gzUTZhSVdwd1JRa2dqU3JtTi1GalFrdkZuMkllMDNmOUgtMWVOdmNLTHp4Yw&amp;q=https%3A%2F%2Famzn.to%2F4aKdklb&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4aKdklb</a></span></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to Access the Internet Browser on PS Portal (Updated for 2025)</title>
-        <author>
-            <name>Marcus</name>
-        </author>
-        <link href="https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps-portal-updated-for-2025.html"/>
-        <id>https://kacboy.com/blog/how-to-access-the-internet-browser-on-ps-portal-updated-for-2025.html</id>
-        <media:content url="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" medium="image" />
-            <category term="guides"/>
-
-        <updated>2025-02-05T17:27:00-08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" alt="" />
-                    The PlayStation Portal is designed primarily for Remote Play, and Sony has&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://kacboy.com/blog/media/posts/29/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
-                <p>The PlayStation Portal is designed primarily for Remote Play, and Sony has severely limited web browsing capabilities. However, there are still a few ways to access the internet through your PS Portal. This guide will walk you through the latest working methods in 2025.</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/ypUaFIgioQw" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h2>Method 1: Using the Hidden PS Portal Browser</h2>
-<p>Unlike the PS5, the PS Portal actually has a built-in browser that can be accessed through system settings.</p>
-<h3>Steps:</h3>
-<ol>
-<li>
-<p><strong>Go to Settings</strong> on your PS Portal.</p>
-</li>
-<li>
-<p>Navigate to <strong>Legal Notices</strong> → <strong>Other Documents</strong>.</p>
-</li>
-<li>
-<p>Click on any link within this section to open the PlayStation website.</p>
-</li>
-<li>
-<p>From there, you can browse <strong>within PlayStation.com</strong>, but external links will be blocked.</p>
-</li>
-</ol>
-<p>⚠️ <strong>Limitations</strong>:</p>
-<ul>
-<li>
-<p>You can only access PlayStation-related content.</p>
-</li>
-<li>
-<p>Some embedded YouTube videos on PlayStation’s site may work, but external links are restricted.</p>
-</li>
-</ul>
-<h2>Method 2: Using PSN Messaging to Open URLs</h2>
-<p>Since the built-in browser is extremely limited, the best alternative is to open a web browser via PSN messages—similar to how it works on PS5.</p>
-<h3>Steps:</h3>
-<ol>
-<li>
-<p><strong>Find an old or inactive PSN account</strong> to send messages to.</p>
-</li>
-<li>
-<p><strong>Send a message</strong> containing a working URL.</p>
-<ul>
-<li>
-<p>Google, YouTube, Bing, and DuckDuckGo are blocked.</p>
-</li>
-<li>
-<p><strong>Brave.com</strong> is currently the best working search engine alternative.</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Open the message on your PS Portal</strong> and click the link.</p>
-</li>
-<li>
-<p>This will launch the browser, giving you some access to external websites.</p>
-</li>
-</ol>
-<p>💡 <em>Bonus Tip</em>: You can also use a custom website like <strong><a href="https://kacboy.com/ps5">kacboy.com/PS5</a></strong>, which has quick links to popular web destinations.</p>
-<h2>Method 3: Watch Dogs 2 Web Browser Trick</h2>
-<p>A lesser-known workaround involves using <em>Watch Dogs 2</em> (available on PlayStation Plus), which includes a browser in its main menu.</p>
-<h3>Steps:</h3>
-<ol>
-<li>
-<p><strong>Download and launch Watch Dogs 2</strong> from PlayStation Plus.</p>
-</li>
-<li>
-<p>From the <strong>main menu</strong>, look at the lower-right corner where social media news items appear.</p>
-</li>
-<li>
-<p>Click the <strong>second news item</strong>, which leads to a <strong>Twitter/X support page</strong>.</p>
-</li>
-<li>
-<p>Scroll to the bottom of that page and click the <strong>Google Chrome link</strong>.</p>
-</li>
-<li>
-<p>This will open a <strong>full-screen browser</strong> where you can access Google Search.</p>
-</li>
-</ol>
-<p>⚠️ <strong>Limitations</strong>:</p>
-<ul>
-<li>
-<p>You <strong>can’t go back</strong> using the Circle button—pressing it closes the browser completely.</p>
-</li>
-<li>
-<p>There’s <strong>no accessibility zoom</strong> on the PS Portal, making navigation difficult.</p>
-</li>
-<li>
-<p><strong>No full-screen mode</strong>, which limits usability.</p>
-</li>
-</ul>
-<h3 data-pm-slice="1 3 []">Other PS5 Games with Built-in Browsers</h3>
-<p>According to user comments, the following PS5 games also have built-in browsers that can be accessed similarly:</p>
-<ul data-spread="false">
-<li>
-<p><em>Watch Dogs 2</em></p>
-</li>
-<li>
-<p><em>Dying Light 1</em></p>
-</li>
-<li>
-<p><em>Red Dead Redemption 2</em></p>
-</li>
-<li>
-<p><em>Uno</em></p>
-</li>
-<li>
-<p><em>Battlefield 2042</em></p>
-</li>
-<li>
-<p><em>Minecraft</em></p>
-</li>
-</ul>
-<h2>Final Thoughts</h2>
-<p>While Sony continues to restrict browser functionality on PlayStation devices, these methods are still viable for now. The PS Portal’s built-in browser is mostly locked down, so your best bet is using the PSN messaging method or the <em>Watch Dogs 2</em> trick.</p>
-<p>Please let me know if these methods still work or if you find a better workaround! 🎮🌐</p>
 <hr>
 <p><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a href="https://kacboy.com/ps5">kacboy.com/ps5</a> <br></span></span><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS Portal </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqblc2YV9yNUFpY2Z1T2VNYk5tOGpaQ0ozak04UXxBQ3Jtc0tuRFN2eGR2VDVWWU4zdVNXNGRjS2ViaE5QZ3AzbWpJRERNbFBDcG44YjNZbXBkSk92TE1WTTFGRUtuZHM5dmFOVzZQSzVoYjhVSFg1Nl8zNzh5NGZDMmVSY2dKaEJwdlN3UzlxcU9CbWY2RzkwTmhVYw&amp;q=https%3A%2F%2Famzn.to%2F3VwoRi3&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3VwoRi3</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br></span></span><span class="yt-core-attributed-string yt-core-attributed-string--white-space-pre-wrap" dir="auto"><span class="yt-core-attributed-string--link-inherit-color" dir="auto">PS5 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbW8xNDdNREVjNGlzZ09CMkhCTTdIeXNfSUhzd3xBQ3Jtc0ttejU2N2FwZkJLb0NidkkxWDJmWkN3dWI3bE53TUozWkR5QTNENzB1WFc0U0lTcXB4QTZHTlJNemRwZU52VHZwREZWZkhnUy1kNnN3LWpQcVNnNDNZMWY1Q2VDZk5JNThNY0RlNXgxa1Z5QmlBUkZkWQ&amp;q=https%3A%2F%2Famzn.to%2F3KB9MWg&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3KB9MWg</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>DualSense </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbnppelhfbklZVkZCYzRVd0hlLUNuNGw5dnJid3xBQ3Jtc0tsdE5WcHkzeS1BdHUxUmcxNUw1N3MtY2VXejVtTXp4ZmRFQXU1UDJYZFFzZnVNdDMwcXFzdXo5cFBKVGxPa3ZFQ2JxQmtLaW1pMDRLMWNQZUVFTkd4Qk9rQUh2VGlENEt0a3ozTUVobUNMVDU0eW5Tcw&amp;q=https%3A%2F%2Famzn.to%2F3RhL1lo&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/3RhL1lo</a></span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"> <br>Watch Dogs 2 </span><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbWpvT3lvTXZ3QWFYdHRNbHBVRmVNaG9ucENUZ3xBQ3Jtc0trV01LeUpFUzBDUl9fTU81NHpMY2szU1NsOWVWTGlQWm9ab0F6X2hSMjBZcGNNQVlFZG4yRnR0ek1CR3p2dHo1TloxT3gzUTZhSVdwd1JRa2dqU3JtTi1GalFrdkZuMkllMDNmOUgtMWVOdmNLTHp4Yw&amp;q=https%3A%2F%2Famzn.to%2F4aKdklb&amp;v=ypUaFIgioQw" rel="nofollow noopener" target="_blank" force-new-state="true" tabindex="0">https://amzn.to/4aKdklb</a></span></span></p>
             ]]>
