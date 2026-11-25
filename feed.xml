@@ -3,7 +3,7 @@
     <title>@kacboy | RSS</title>
     <link href="https://kacboy.com/blog/feed.xml" rel="self" />
     <link href="https://kacboy.com/blog" />
-    <updated>2026-11-14T14:30:16-07:00</updated>
+    <updated>2026-11-25T14:03:09-07:00</updated>
     <author>
         <name>Marcus</name>
     </author>
@@ -173,6 +173,9 @@ umd2mkv -iso /path/to/movie.iso -scan-tracks</code></pre>
 <p>PS Move API: <a href="https://github.com/thp/psmoveapi">https://github.com/thp/psmoveapi</a></p>
 </li>
 <li>
+<p>PSMoveServiceEx <a href="https://github.com/Timocop/PSMoveServiceEx">https://github.com/Timocop/PSMoveServiceEx</a> </p>
+</li>
+<li>
 <p>Dolphin Emulator: <a href="https://dolphin-emu.org/">https://dolphin-emu.org/</a></p>
 </li>
 <li>
@@ -219,6 +222,7 @@ umd2mkv -iso /path/to/movie.iso -scan-tracks</code></pre>
 </ul>
 <p class="isSelectedEnd">Follow the instructions shown in the Command Prompt window. Make sure Bluetooth is turned on before pairing, and connect the PS Move controller with a USB cable when prompted. One thing to watch out for: make sure Bluetooth is enabled before trying to pair the controller.</p>
 <p>Once the controller is paired successfully, you can unplug it from USB and continue to the next step.</p>
+<pre><a href="https://github.com/Swordmaster3214/PSMove-DSU">PSMove-DSU</a> has been updated a lot since I initally wrote this video/blog. It now has a new GUI that's much easier to use. I also found <a href="https://github.com/Timocop/PSMoveServiceEx">PSMoveServiceEx</a> which is a more up to date GUI that can run the PSMove API among many other powerful features.</pre>
 <h2>Step 3: Start PSMove-DSU</h2>
 <p>After the controller is paired, you need to start the DSU server so Dolphin can receive input from the PS Move controller. Stay in the same <strong>Administrator Command Prompt</strong> window from the previous step. You should still be inside the folder containing the PS Move files. To run the main program just run the DSU executable without any additional arguments:</p>
 <p><code dir="ltr">dsu_server_psmove_win64.exe</code></p>
@@ -251,13 +255,16 @@ umd2mkv -iso /path/to/movie.iso -scan-tracks</code></pre>
 <p>Once your buttons and motion controls are mapped, launch a game.</p>
 <p>The setup is not perfect out of the box, and I am still not sure about the best way to fine-tune or calibrate everything. You may need to experiment with sensitivity, pointer behavior, and recentering.</p>
 <p>That said, with a recenter button mapped, I was able to navigate well enough and actually play the game. The swing strength required in Wii Sports also felt a little strong, but the important thing is that it worked.</p>
+<h2>Multiplayer</h2>
+<p>After <a href="https://github.com/Swordmaster3214/PSMove-DSU/issues/4">some back and forth with the developer</a> I was able to get two move controllers working for multiplayer gaming. It may have been from an update or a setting I had setup incorrectly. Either way it does work:</p>
+<figure class="post__image"><img loading="lazy"  src="https://kacboy.com/blog/media/posts/47/Screenshot-2026-11-25-135108.png" alt="" width="1834" height="1062" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://kacboy.com/blog/media/posts/47/responsive/Screenshot-2026-11-25-135108-xs.webp 300w ,https://kacboy.com/blog/media/posts/47/responsive/Screenshot-2026-11-25-135108-sm.webp 480w ,https://kacboy.com/blog/media/posts/47/responsive/Screenshot-2026-11-25-135108-md.webp 768w ,https://kacboy.com/blog/media/posts/47/responsive/Screenshot-2026-11-25-135108-lg.webp 1024w"></figure>
 <h2>Final Thoughts</h2>
 <p>This is the simplest solution I have found for using a PlayStation Move controller with Dolphin Emulator.</p>
-<p>It still has some rough edges. Button mapping is limited, calibration may need tweaking, and two-player support does not seem ready yet, at least on Windows. It might also be possible to use it as a Nunchuk-style controller, but I am not familiar enough with the full extent of PS Move API support to say for sure.</p>
+<p>It still has some rough edges. Button mapping is limited, calibration may need tweaking,<span style="text-decoration: line-through;"> and two-player support does not seem ready yet, at least on Windows.</span> It might also be possible to use it as a Nunchuk-style controller, but I am not familiar enough with the full extent of PS Move API support to say for sure.</p>
 <p>But the fact that this works at all is awesome.</p>
 <p>If you have a PS Move controller lying around, this is absolutely worth trying.</p>
 <hr>
-<p><span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto"><span class="ytAttributedStringLinkInheritColor" dir="auto">PS Move Controllers </span><span class="ytAttributedStringLinkInheritColor" dir="auto"><a href="https://amzn.to/4u0NYr7" target="_blank" rel="nofollow noopener noreferrer">https://amzn.to/4u0NYr7</a><br></span></span>PSMove-DSU <a href="https://github.com/Swordmaster3214/PSMove-DSU">https://github.com/Swordmaster3214/PSMove-DSU</a><br>PS Move API <a href="https://github.com/thp/psmoveapi">https://github.com/thp/psmoveapi</a><br>Dolphin Emulator <a href="https://dolphin-emu.org/">https://dolphin-emu.org/</a></p>
+<p><span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto"><span class="ytAttributedStringLinkInheritColor" dir="auto">PS Move Controllers </span><span class="ytAttributedStringLinkInheritColor" dir="auto"><a href="https://amzn.to/4u0NYr7" target="_blank" rel="nofollow noopener noreferrer">https://amzn.to/4u0NYr7</a><br></span></span>PSMove-DSU <a href="https://github.com/Swordmaster3214/PSMove-DSU">https://github.com/Swordmaster3214/PSMove-DSU</a><br>PSMoveServiceEx <a href="https://github.com/Timocop/PSMoveServiceEx">https://github.com/Timocop/PSMoveServiceEx</a> <br>PS Move API <a href="https://github.com/thp/psmoveapi">https://github.com/thp/psmoveapi</a><br>Dolphin Emulator <a href="https://dolphin-emu.org/">https://dolphin-emu.org/</a></p>
             ]]>
         </content>
     </entry>
